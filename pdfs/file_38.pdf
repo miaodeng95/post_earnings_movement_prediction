@@ -1,0 +1,1565 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<!--9/25/2025 11:24:49 PM-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+        <script>(function (i, s, o, g, r, a, m) { i["GoogleAnalyticsObject"] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m) })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"); ga("create", "UA-124167090-6", { "cookieDomain": "auto" }); ga("send", "pageview");</script>
+
+    
+    <!-- Uncookied Tracking Tags-->
+    <script>
+(function(){var a=window.mutiny=window.mutiny||{};if(!window.mutiny.client){a.client={_queue:{}};var b=["identify","trackConversion"];var c=[].concat(b,["defaultOptOut","optOut","optIn"]);var d=function factory(c){return function(){for(var d=arguments.length,e=new Array(d),f=0;f<d;f++){e[f]=arguments[f]}a.client._queue[c]=a.client._queue[c]||[];if(b.includes(c)){return new Promise(function(b,d){a.client._queue[c].push({args:e,resolve:b,reject:d})})}else{a.client._queue[c].push({args:e})}}};c.forEach(function(b){a.client[b]=d(b)})}})();
+</script>
+<script data-cfasync="false" src="https://client-registry.mutinycdn.com/personalize/client/39684027e86291af.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Ads: 606193534 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-606193534"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-606193534');
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TG454ZB');</script>
+<!-- End Google Tag Manager -->
+
+<script type="text/javascript">
+_linkedin_partner_id = "7399004";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script><script type="text/javascript">
+(function(l) {
+if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+window.lintrk.q=[]}
+var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})(window.lintrk);
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=7399004&fmt=gif" />
+</noscript>
+
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['SLScoutObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://scout-cdn.salesloft.com/sl.js','slscout');
+    slscout(["init", "eyJhbGciOiJIUzI1NiJ9.eyJ0IjoxMTc5MjN9._REuUnpwiX3bQ0lr-JUOfzU8ccMZD4ieM37hgF8EpwA"]);
+</script>
+    
+
+
+
+        <script type="text/javascript">
+            (function () {
+                var didInit = false;
+                function initMunchkin() {
+                    if (didInit === false) {
+                        didInit = true;
+                        Munchkin.init('100-UBX-183');
+                    }
+                }
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = '//munchkin.marketo.net/munchkin.js';
+                s.onreadystatechange = function () {
+                    if (this.readyState == 'complete' || this.readyState == 'loaded') {
+                        initMunchkin();
+                    }
+                };
+                s.onload = initMunchkin;
+                document.getElementsByTagName('head')[0].appendChild(s);
+            })();
+        </script>
+
+    
+
+<title>D-Wave Reports Second Quarter 2025 Results</title>
+<link rel="shortcut icon" href="https://www.dwavequantum.com/favicon.ico" type="image/x-icon" />
+<meta name="description" />
+<meta name="keywords" />
+<link rel="canonical" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" type="image/x-icon" href="https://www.dwavequantum.com/favicon.ico">
+
+    
+
+        <meta name="google-site-verification" content="XgzuiMWW6Llarg1XFEtOBGbpfQ6R2yF6dqg70H4uXpg" />
+
+    
+
+
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" />
+<meta property="og:description" />
+<meta property="og:url" content="https://www.dwavequantum.com/company/newsroom/press-release/d-wave-reports-second-quarter-2025-results/" />
+<meta property="og:site_name" />
+<meta property='og:image' content='https://www.dwavequantum.com/media/5ppp0ajs/dwave-gerneric-open-graph-image.png?anchor=center&mode=crop&width=1200&height=630' />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" />
+<meta name="twitter:title">
+<meta name="twitter:description">
+<meta name="twitter:image" content="https://www.dwavequantum.com/media/5ppp0ajs/dwave-gerneric-open-graph-image.png?anchor=center&mode=crop&width=600&height=314" />
+
+
+
+    
+    <link href="/css/styles.css" rel="stylesheet"/>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="/css/frameworks-libraries/animate-it/animations.css" type="text/css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <script>
+    function showAllItems(formKey) {
+           
+            $('#div-'+formKey).children().removeClass("resources-hide");
+          $('#btn-'+ formKey).addClass("resources-hide");
+    }
+        // Picture element HTML5 shiv
+        document.createElement("picture");
+    </script>
+
+    
+    <style>
+
+        .cta__medium:hover {
+            color: #FFF !important;
+        }
+
+        .cta__link i {
+            display: none;
+        }
+    </style>
+</head>
+<body class="page-bg-image">
+
+        <style>
+                body.page-bg-image {
+                    background-color: #000;
+                    background-position: center 0px;
+                    background-image: url('/media/s3ilhyzs/lines-generic-desktop-2-c.png');
+                    background-repeat:no-repeat;
+                    overflow-x: hidden;
+                }
+
+
+
+        @media (min-width: 1920px) {
+            body.page-bg-image {
+                background-color: #000;
+                background-position: center 0px;
+                background-size: 1920px;
+                background-image: url('/media/s3ilhyzs/lines-generic-desktop-2-c.png');
+                background-repeat: no-repeat;
+                overflow-x: hidden;
+            }
+        }
+
+
+                     
+                      @media (max-width: 768px) {
+                        body.page-bg-image {
+                            background-color: #000;
+                            background-position: center 0px;
+                            background-size: cover;
+                            background-image: url('/media/facdiyev/lines-generic-tablet-2-c.png');
+                            background-repeat: no-repeat;
+                            overflow-x: hidden;
+                        }
+    }
+                      
+
+                       
+                      @media (max-width: 480px) {
+                        body.page-bg-image {
+                            background-color: #000;
+                            background-position: center 0px;
+                            background-size: cover;
+                            background-image: url('/media/rlggrv0j/lines-generic-mobile-2-c.png');
+                            background-repeat: no-repeat;
+                            overflow-x: hidden;
+                        }
+    }
+                      
+
+        </style>
+   
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg dwave__menu">
+    <div class="container">
+        <div class="row menu__row--fix">
+
+
+            <button class="navbar-toggler dwave__menu--toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="col-md-3">
+                <div class="logo">
+                    <a class="navbar-brand" href="/">
+
+                                <img src="/media/j31olsrx/d-wave-corporate-logo-full-color-light.png" width="170" alt="Logo" />
+
+
+                        
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-9 collapse navbar-collapse menu__mobile--container" id="navbarNavDropdown">
+                <div class="menu menu__main--block">
+                    <div class="navigation">
+                        <div class="search">
+                            <ul class="menu__search--block">
+
+                                    <li class="">
+                                        <a class="" href="https://ir.dwavesys.com/overview/default.aspx">INVESTORS</a>
+                                    </li>
+                                    <li class="">
+                                        <a class="" href="/company/careers/">CAREERS</a>
+                                    </li>
+                                    <li class="">
+                                        <a class="" href="/company/contact/">CONTACT</a>
+                                    </li>
+                                    <li class="">
+                                        <a class="" href="https://cloud.dwavesys.com/leap/login/?next=/leap/" target="_blank&quot; rel=&quot;noopener noreferrer">Log In</a>
+                                    </li>
+                               
+                                
+                                    <li class="c-navigation__top-nav__search">
+                                        <div class="desktop-search-container search-hidden">
+                                            <span class="search-btn glyphicon glyphicon-search"></span>
+                                            <div class="desktop-search-container__wrapper">
+                                                <input id="desktop-search-box" class="search-box" type="text" maxlength="40" name="query" data-search-url="/gaining/" />
+                                                <input id="desktop-search-button" type="submit" class="submit-btn search-submit-btn" value="Go" />
+                                            </div>
+                                            
+                                        </div>
+                                    </li>
+                            </ul>
+                        </div>
+
+                        <ul id="MainMenu" class="menu__bottom--block menu_link">
+                                <li class="menu__item--block dropdown">
+                                    <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+
+                                        <div class="sub_menu dropdown-menu">
+                                            <div class="container">
+                                                <div class="row submenu__col--divider">
+                                                    <div class="col-md-4 menu-item-info">
+                                                        <h3>Products</h3>
+                                                        <p>Discover how you can use quantum computing today</p>
+                                                    </div>
+                                                    <div class="menu-item-links menu__col--right">
+                                                            <div class="row menu-items-row">
+                                                                    <div class="col-md-12 sub__menu--inner-col">
+                                                                       
+                                                                        <div class="row">
+                                                                        <ul class="width-50-item " >
+
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/cloud-platform/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Cloud Platform
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                The Leap™ quantum cloud service provides real-time quantum access
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/product-overview/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Product Overview
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                A full-stack, cross-platform quantum ecosystem built for business
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/professional-services/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Professional Services
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                The D-Wave Launch™ program on-boards your business to quantum computing
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/systems/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Systems
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                Quantum computers built for business and science
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/learn/training/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Learning Solutions
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                Start your journey! Explore D-Wave applications, events, and resources
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/ocean/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Software &amp; Tools
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                The Ocean™ suite of open-source tools are accessible via the Ocean SDK for rapid quantum development
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                        </ul>
+                                                                            </div>
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li class="menu__item--block dropdown">
+                                    <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+
+                                        <div class="sub_menu dropdown-menu">
+                                            <div class="container">
+                                                <div class="row submenu__col--divider">
+                                                    <div class="col-md-3 menu-item-info">
+                                                        <h3>Solutions</h3>
+                                                        <p>Discover how you can use quantum computing today</p>
+                                                    </div>
+                                                    <div class="menu-item-links col-md-9">
+                                                            <div class="row menu-items-row">
+                                                                    <div class="col-md-8 sub__menu--inner-col">
+                                                                       
+                                                                            <h4>By Use Case</h4>
+                                                                        <div class="row">
+                                                                        <ul class=" col-md-6" >
+
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/quantum-optimization/quantum-optimization-landing-page/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Quantum Optimization Summary
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/quantum-optimization/workforce-scheduling/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Workforce Scheduling
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/quantum-optimization/production-scheduling/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Production Scheduling
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/quantum-optimization/logistics-routing/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Logistics Routing
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/quantum-optimization/resource-optimization/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Resource Optimization
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/quantum-optimization/cargo-loading/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Cargo Loading
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/learn/featured-applications/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Additional Use Cases
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                        </ul>
+                                                                            </div>
+                                                                    </div>
+                                                                    <div class="col-md-4 sub__menu--inner-col">
+                                                                       
+                                                                            <h4>By Role</h4>
+                                                                        <div class="row">
+                                                                        <ul class=" " >
+
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/developer/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Developer
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                Get started building real quantum applications
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/technology-business-leader/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Tech &amp; Business Leaders
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                Learn how quantum computing fits into your technology portfolio
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/quantum-optimization/quantum-research-landing-page/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Quantum Research
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                Explore the boundaries of quantum computing
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                        </ul>
+                                                                            </div>
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li class="menu__item--block dropdown">
+                                    <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sectors</a>
+
+                                        <div class="sub_menu dropdown-menu">
+                                            <div class="container">
+                                                <div class="row submenu__col--divider">
+                                                    <div class="col-md-4 menu-item-info">
+                                                        <h3>Sectors</h3>
+                                                        <p>Discover how you can use quantum computing today</p>
+                                                    </div>
+                                                    <div class="menu-item-links menu__col--right">
+                                                            <div class="row menu-items-row">
+                                                                    <div class="col-md-12 sub__menu--inner-col">
+                                                                       
+                                                                        <div class="row">
+                                                                        <ul class="width-50-item " >
+
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/manufacturing-logistics/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Manufacturing &amp; Logistics
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/public-sector/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Public Sector
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/quantum-optimization/quantum-research-landing-page/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Quantum Research
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/quantum-optimization/quantum-ai-landing-page/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Quantum AI
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                        </ul>
+                                                                            </div>
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li class="menu__item--block dropdown">
+                                    <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn</a>
+
+                                        <div class="sub_menu dropdown-menu">
+                                            <div class="container">
+                                                <div class="row submenu__col--divider">
+                                                    <div class="col-md-4 menu-item-info">
+                                                        <h3>Learn</h3>
+                                                        <p>Start your journey! Explore D-Wave applications, events, and resources.</p>
+                                                    </div>
+                                                    <div class="menu-item-links menu__col--right">
+                                                            <div class="row menu-items-row">
+                                                                    <div class="col-md-12 sub__menu--inner-col">
+                                                                       
+                                                                        <div class="row">
+                                                                        <ul class="width-50-item " >
+
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/learn/featured-applications/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Featured Applications
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/learn/quantum-computing/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Quantum Computing
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/learn/resource-library/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Resource Library
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/learn/d-wave-s-approach/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                D-Wave&#39;s Approach
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/learn/publications/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Publications
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/learn/customer-success-stories/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Customer Success Stories
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/learn/events-and-webinars/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Events &amp; Webinars
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/learn/training/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Training
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                        </ul>
+                                                                            </div>
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li class="menu__item--block dropdown">
+                                    <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Build</a>
+
+                                        <div class="sub_menu dropdown-menu">
+                                            <div class="container">
+                                                <div class="row submenu__col--divider">
+                                                    <div class="col-md-4 menu-item-info">
+                                                        <h3>Build</h3>
+                                                        <p>Unlock your quantum skills and start building quantum applications today</p>
+                                                    </div>
+                                                    <div class="menu-item-links menu__col--right">
+                                                            <div class="row menu-items-row">
+                                                                    <div class="col-md-12 sub__menu--inner-col">
+                                                                       
+                                                                        <div class="row">
+                                                                        <ul class="width-50-item " >
+
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="https://support.dwavesys.com/hc/en-us/community/topics" class="submenu-item-info__link" target="_blank">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Community Forums
+                                                                                                    <i class="fas fa-arrow-up new-window-arrow"></i>
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                Connect with and learn from other quantum developers.
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/build/getting-started/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Getting Started
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                Step-by-step approach to building quantum applications today.
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="https://github.com/dwave-examples" class="submenu-item-info__link" target="_blank">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Code Samples
+                                                                                                    <i class="fas fa-arrow-up new-window-arrow"></i>
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                Search for and run working examples by industry, problem type, and tools or techniques.
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/solutions-and-products/developer/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Developer
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                Start here!
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="https://docs.dwavesys.com/docs/latest/index.html" class="submenu-item-info__link" target="_blank">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Documentation
+                                                                                                    <i class="fas fa-arrow-up new-window-arrow"></i>
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                Find out more about D-Wave’s quantum technologies and how they work.
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                        </ul>
+                                                                            </div>
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li class="menu__item--block dropdown">
+                                    <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company</a>
+
+                                        <div class="sub_menu dropdown-menu">
+                                            <div class="container">
+                                                <div class="row submenu__col--divider">
+                                                    <div class="col-md-4 menu-item-info">
+                                                        <h3>Company</h3>
+                                                        <p>We are the practical quantum computing company. Learn more about who we are and what we do.</p>
+                                                    </div>
+                                                    <div class="menu-item-links menu__col--right">
+                                                            <div class="row menu-items-row">
+                                                                    <div class="col-md-12 sub__menu--inner-col">
+                                                                       
+                                                                        <div class="row">
+                                                                        <ul class="width-50-item " >
+
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/learn/events-and-webinars/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Events &amp; Webinars
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/company/about-d-wave/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                About D-Wave
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/company/newsroom/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Newsroom
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/company/leadership/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Leadership
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/company/media-resources/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Media Resources
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/company/careers/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Careers
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                                    <li class="submenu-item-info">
+                                                                                        <a href="/company/contact/" class="submenu-item-info__link">
+                                                                                            <span class="submenu-item-info__link--header">
+                                                                                                Contact
+                                                                                            </span>
+                                                                                            <span class="submenu-item-info__link--desc">
+                                                                                                
+                                                                                            </span>
+                                                                                        </a>
+                                                                                        
+                                                                                    </li>
+                                                                        </ul>
+                                                                            </div>
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+                        </ul>
+                    </div>
+                    <div class="right_btn">
+                        <div class="right_arrow">
+                            <a href="/build/getting-started/">Get Started<span><i class="fas fa-chevron-right"></i></span></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+
+    <main role="main">
+        
+
+<div class="t-news-section-text-item">
+
+    
+
+    <div class="container-fluid t-news-section-text-item__marquee">
+        <div class="container">
+            <div class="article-indent">
+                <div class="row">
+                    <div class="col-xs-12 col-lg-9">
+                        <div class="eyebrow__label_dots">August 07, 2025</div>
+                        <h1>D-Wave Reports Second Quarter 2025 Results</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="container-fluid t-news-section-text-item__article">
+
+        <div class="container">
+            <div class="article-indent">
+                 <div class="row">
+                    <div class="col-12">
+                        <img src="/media/vdndoyto/investor_press_release_image.png?anchor=center&amp;mode=crop&amp;rnd=133478343701370000" />
+                        <span class="hero-image__caption"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <article class="col-12 col-md-10">
+                        <div class="article-body">
+                            <p style="text-align: center;"><em>Q2 Revenue up 42%</em> <em>Year over Year</em></p>
+<p style="text-align: center;"><em> GAAP Gross Profit up 42%</em> <em>Year over Year</em></p>
+<p style="text-align: center;"><em>Highest Cash Balance in Company’s History at over</em><em> $819 Million</em></p>
+<p><strong>PALO ALTO, Calif. – </strong><strong>August 7, 2025 – </strong><u>D-Wave Quantum Inc.</u> (NYSE: QBTS) (“D-Wave” or the “Company”), a leader in commercial quantum computing systems, software, and services, today announced financial results for its secondquarter ended June 30, 2025. </p>
+<p>“Our second quarter results show consistently strong performance across a multitude of technical and business metrics,” said Dr. Alan Baratz, CEO of D-Wave. “During the quarter, we brought to market our sixth-generation quantum computer, signed a memorandum of understanding related to the acquisition of an on-premises system in South Korea, completed physical assembly of the previously announced system at Davidson Technologies, introduced a collection of developer tools to advance quantum AI and machine learning innovation, and ended the quarter with a record $819 million in cash. We’re confident in our ability to continue delivering long-term value for our customers, partners and shareholders.”</p>
+<p><strong>Recent Business and Technical Highlights</strong></p>
+<ul>
+<li>Announced revenue of $3.1 million for the second quarter of fiscal 2025. This is an increase of $0.9 million, or 42%, from revenue of $2.2 million for the second quarter of fiscal 2024.</li>
+<li><a href="https://www.dwavequantum.com/company/newsroom/press-release/d-wave-announces-successful-completion-of-400-million-at-the-market-equity-offering/">Completed a successful $400</a><a href="https://www.dwavequantum.com/company/newsroom/press-release/d-wave-announces-successful-completion-of-400-million-at-the-market-equity-offering/"> million</a><a href="https://www.dwavequantum.com/company/newsroom/press-release/d-wave-announces-successful-completion-of-400-million-at-the-market-equity-offering/"> At-the-Market</a><a href="https://www.dwavequantum.com/company/newsroom/press-release/d-wave-announces-successful-completion-of-400-million-at-the-market-equity-offering/"> (ATM)</a><a href="https://www.dwavequantum.com/company/newsroom/press-release/d-wave-announces-successful-completion-of-400-million-at-the-market-equity-offering/"> equity offering</a>, contributing to D-Wave’s consolidated cash balance of approximately $819 million as of June 30, 2025, a record quarter-end balance for the Company. The Company intends to use the proceeds from this financing primarily for strategic acquisitions and general corporate purposes including providing additional working capital and funding capital expenditures.</li>
+<li><a href="https://www.dwavequantum.com/company/newsroom/press-release/d-wave-announces-general-availability-of-advantage2-quantum-computer-its-most-advanced-and-performant-system/">Announced the general availability of D-Wave’s Advantage2 quantum computer</a>, its most advanced and performant system. The Advantage2 system is a powerful and energy-efficient annealing quantum computer capable of solving computationally complex problems <a href="https://www.science.org/stoken/author-tokens/ST-2490/full">beyond the reach of classical computers</a>. Featuring D-Wave’s most advanced quantum processor to date, the Advantage2 system is commercial-grade, and built to address real-world use cases in areas such as optimization, materials simulation and artificial intelligence. The system features increased connectivity, reduced noise, greater coherence, and increased energy scale, all contributing to faster and higher quality solutions.</li>
+<li><a href="https://www.dwavequantum.com/company/newsroom/press-release/d-wave-quantum-announces-strategic-development-initiative-for-advanced-cryogenic-packaging/">Announced a new strategic development initiative focused on advanced cryogenic packaging</a>. Designed to advance and scale both gate model and annealing quantum processor development, the initiative builds on D-Wave’s technology leadership in superconducting cryogenic packaging and will expand its multichip packaging capabilities, equipment, and processes. By bolstering D-Wave’s manufacturing efforts with state-of-the-art technology, the Company aims to accelerate its development efforts in support of its aggressive product roadmap on the path to 100,000 qubits.</li>
+<li><a href="https://www.dwavequantum.com/company/newsroom/press-release/d-wave-introduces-new-developer-tools-to-advance-quantum-ai-exploration-and-innovation/">Released a collection of offerings to help developers explore and advance quantum artificial intelligence (AI) and machine learning (ML) innovation</a>, including an open-source quantum AI toolkit and a demo. The quantum AI toolkit enables developers to seamlessly integrate quantum computers into modern ML architectures. The demo illustrates how developers can leverage this toolkit to explore using D-Wave™ quantum processors to generate simple images, reflecting a pivotal step in the development of <a href="https://www.dwavequantum.com/solutions-and-products/quantum-optimization/quantum-ai-landing-page/">quantum AI</a></li>
+<li><a href="https://www.dwavequantum.com/company/newsroom/press-release/d-wave-yonsei-university-and-incheon-metropolitan-city-announce-strategic-relationship/">Announced a strategic relationship with Yonsei University and Incheon Metropolitan City</a> to accelerate the exploration, adoption and usage of quantum computing in South Korea. Under the terms of the memorandum of understanding (MOU), the three organizations intend to work together to advance mutual research and talent development for quantum computing, provide access to D-Wave’s quantum computing systems and services, and collaborate on development of use cases in biotechnology, materials science and other areas. In addition, the MOU facilitates the organizations’ efforts towards the acquisition of a D-Wave Advantage2 system at the Yonsei University International Campus in Songdo, Yeonsu-gu, Incheon.</li>
+<li>Signed a number of new and renewing customer engagements for both commercial and research applications, including E.ON – a European multinational electric utility company; GE Vernova – a global energy company; National Quantum Computing Centre (NQCC) – the UK’s national lab for quantum computing; Nikon Corporation – a multinational corporation specializing in optics and precision technologies; NTT Data Corp. – a multinational IT services and consulting company; NTT DOCOMO – Japan’s leading mobile operator; Sharp Corporation – a multinational electronics company; and the University of Oxford.</li>
+</ul>
+<p><strong>Second Quarter Fiscal 2025 Financial Highlights</strong></p>
+<ul>
+<li><strong>Revenue:</strong> Revenue for the second quarter of fiscal 2025 was $3.1 million, an increase of $0.9 million, or 42%, from the fiscal 2024 second quarter revenue of $2.2 million.</li>
+<li><strong>Bookings<sup>1</sup>: </strong>Bookings for the second quarter of fiscal 2025 were $1.3 million, an increase of $0.6 million, or 92%, from the fiscal 2024 second quarter Bookings of $0.7 million.</li>
+<li><strong>Customers:</strong> For the most recent four quarters, D-Wave had in excess of 100 revenue generating customers.</li>
+<li><strong>GAAP Gross Profit:</strong> GAAP gross profit for the second quarter of fiscal 2025 was $2.0 million, an increase of $0.6 million, or 42%, from the fiscal 2024 second quarter GAAP gross profit of $1.4 million, with the increase due primarily to the growth in revenue.</li>
+<li><strong>GAAP Gross Margin:</strong> GAAP gross margin for the second quarter of fiscal 2025 was 63.8%, an increase of 0.2% from the fiscal 2024 second quarter GAAP gross margin of 63.6%.</li>
+<li><strong>Non-GAAP Gross Profit<sup>2</sup>:</strong> Non-GAAP Gross Profit for the second quarter of fiscal 2025 was $2.2 million, an increase of $0.6 million, or 39%, from the fiscal 2024 second quarter Non-GAAP Gross Profit of $1.6 million. The difference between GAAP and Non-GAAP Gross Profit is limited to non-cash stock-based compensation and depreciation and amortization expenses that are excluded from the Non-GAAP Gross Profit.</li>
+<li><strong>Non-GAAP Gross Margin<sup>2</sup></strong>: Non-GAAP Gross Margin for the second quarter of fiscal 2025 was 71.8%, a decrease of 1.3% from the fiscal 2024 second quarter Non-GAAP Gross Margin of 73.1%. The difference between GAAP and Non-GAAP Gross Margin is limited to non-cash stock-based compensation and depreciation and amortization expenses that are excluded from the Non-GAAP Gross Margin.</li>
+<li><strong>GAAP Operating Expenses:</strong> GAAP operating expenses for the second quarter of fiscal 2025 were $28.5 million, an increase of $8.3 million, or 41%, from the fiscal 2024 second quarter GAAP Operating Expenses of $20.2 million with the increase driven primarily by increases of $3.5 million in personnel costs, $2.4 million in non-cash stock-based compensation, $1.6 million in fabrication and related activities and $1.5 million in third party professional fees, partly offset by a recovery on a previously written-off debt of $1.1 million. The increased operating expenses stem from incremental investments to support the Company’s continued growth and expansion.</li>
+<li><strong>Non-GAAP Adjusted Operating Expenses<sup>2</sup>:</strong> Non-GAAP Adjusted Operating Expenses for the second quarter of fiscal 2025 were $22.2 million, an increase of $6.7 million, or 43% from the fiscal 2024 second quarter Non-GAAP Adjusted Operating Expenses of $15.5 million, with the difference between GAAP and Non-GAAP Adjusted Operating Expenses being primarily non-cash stock-based compensation expense, non-cash depreciation and amortization, and non-recurring one-time expenses.</li>
+<li><strong>Net Loss</strong>: Net loss for the second quarter of fiscal 2025 was $167.3 million, or $0.55 per share, an increase of $149.5 million, or $0.45 per share, from the fiscal 2024 second quarter net loss of $17.8 million, or $0.10 per share. The increase was primarily due to $142.0 million in non-cash, non-operating charges related to the remeasurement of the Company's warrant liability, as well as realized losses stemming from warrant exercises, that materially increased as a result of the significant price appreciation of the Company's warrants.</li>
+<li><strong>Adjusted Net Loss<sup>2</sup></strong>: Adjusted Net Loss for the second quarter of fiscal 2025 was $25.3 million, or $0.08 per share, an increase of $5.3 million, and a decrease of $0.04 per share, from the fiscal 2024 second quarter Adjusted Net Loss of $20.0 million, or $0.12 per share, with the difference between Net Loss and Adjusted Net Loss being non-cash, non-operating warrant remeasurement related charges.</li>
+<li><strong>Adjusted EBITDA Loss<sup>2</sup>:</strong> Adjusted EBITDA Loss for the second quarter of fiscal 2025 was $20.0 million, an increase of $6.1 million, or 44%, from the fiscal 2024 second quarter Adjusted EBITDA Loss of $13.9 million with the increase due primarily to higher operating expenses, partly offset by higher gross profit.</li>
+</ul>
+<p><strong>Financial Results for the First Half of Fiscal Year 2025</strong></p>
+<ul>
+<li><strong>Revenue:</strong> Revenue for the six months ended June 30, 2025 was $18.1 million, an increase of $13.5 million, or 289%, from revenue of $4.6 million for the six months ended June 30, 2024.</li>
+<li><strong>Bookings<sup>1</sup>: </strong>Bookings for the six months ended June 30, 2025 were $2.9 million, a decrease of $0.4 million, or 13%, from Bookings of $3.3 million for the six months ended June 30, 2024.</li>
+<li><strong>GAAP Gross Profit:</strong> GAAP gross profit for the six months ended June 30, 2025 was $15.9 million, an increase of $12.9 million, or 420%, from $3.0 million in GAAP gross profit for the six months ended June 30, 2024, with the increase due primarily to a higher margin annealing quantum computer system sale during the six months ended June 30, 2025.</li>
+<li><strong>GAAP Gross Margin:</strong> GAAP gross margin for the six months ended June 30, 2025 was 87.6%, an increase of 22.0% from the 65.6% GAAP gross margin for the six months ended June 30, 2024, with the increase due primarily to a higher margin annealing quantum computer system sale during the six months ended June 30, 2025.</li>
+<li><strong>Non-GAAP Gross Profit<sup>2</sup>:</strong> Non-GAAP Gross Profit for the six months ended June 30, 2025 was $16.3 million, an increase of $12.8 million, or 367%, from the Non-GAAP Gross Profit of $3.5 million for the six months ended June 30, 2024. The difference between GAAP and Non-GAAP Gross Profit is limited to non-cash stock-based compensation and depreciation and amortization expenses that are excluded from the Non-GAAP Gross Profit.</li>
+<li><strong>Non-GAAP Gross Margin<sup>2</sup>:</strong> Non-GAAP Gross Margin for the six months ended June 30, 2025 was 89.9%, an increase of 14.9% from the 75.0% Non-GAAP Gross Margin for the six months ended June 30, 2024. The difference between GAAP and Non-GAAP Gross Margin is limited to non-cash stock-based compensation and depreciation and amortization expenses that are excluded from the Non-GAAP Gross Margin.</li>
+<li><strong>GAAP Operating Expenses:</strong> GAAP operating expenses for the six months ended June 30, 2025 were $53.6 million, an increase of $14.2 million, or 36%, from GAAP operating expenses of $39.4 million for the six months ended June 30, 2024, with the year-over-year increase primarily driven by increases of $6.6 million in salaries and related personnel costs, 80% of which relates to increases in Sales &amp; Marketing and Research &amp; Development staff; $2.9 million in non-cash stock-based compensation; $2.0 million in fabrication and related activities; $1.8 million in third party professional services and $1.3 million in marketing expenses. The increased operating expenses stem from incremental investments to support the Company’s continued growth and expansion.</li>
+<li><strong>Non-GAAP Adjusted Operating Expenses<sup>2</sup>:</strong> Non-GAAP Adjusted Operating Expenses for the six months ended June 30, 2025 were $42.4 million, an increase of $12.1 million, or 40%, from Non-GAAP Adjusted Operating Expenses of $30.3 million for the six months ended June 30, 2024, with the difference between GAAP and Non-GAAP Operating Expenses being primarily non-cash stock-based compensation expense, non-recurring one-time expenses, and depreciation and amortization.</li>
+<li><strong>Net Loss:</strong> Net loss for the six months ended June 30, 2025 was $172.8 million, or $0.59 per share, an increase of $137.7 million, or $0.38 per share, compared with a net loss of $35.1 million, or $0.21 per share for the six months ended June 30, 2024. The increase was primary due to $138.1 million in non-cash, non-operating charges related to the remeasurement of the Company's warrant liability, as well as realized losses stemming from warrant exercises.</li>
+<li><strong>Adjusted Net Loss<sup>2</sup></strong>: Adjusted Net Loss for the six months ended June 30, 2025 was $34.6 million, or $0.12 per share, essentially flat compared with the Adjusted Net Loss of $34.6 million, or $0.21 per share for the six months ended June 30, 2024, with the difference between Net Loss and Adjusted Net Loss being non-cash, non-operating warrant related charges.</li>
+<li><strong>Adjusted EBITDA Loss<sup>2</sup>:</strong> The Adjusted EBITDA Loss for the six months ended June 30, 2025 was $26.1 million, a decrease of $0.7 million, or 3%, from the six months ended June 30, 2024 Adjusted EBITDA Loss of $26.8 million, with the improvement due primarily to higher gross profit, partly offset by increased operating expenses.</li>
+</ul>
+<p>__________________</p>
+<p><em><sup>1</sup></em><em>“Bookings” is an operating metric that is defined as customer orders received that are expected to generate net revenues in the future. We present the operational metric of Bookings because it reflects customers' demand for our products and services and to assist readers in analyzing our potential performance in future periods.</em></p>
+<p><em><sup>2</sup></em><em>"Non-GAAP Gross Profit", "Non-GAAP Gross Margin", "Non-GAAP Adjusted Operating Expenses", "Adjusted Net Loss", "Adjusted Net Loss per Share" and "Adjusted EBITDA Loss", are non-GAAP financial measures or metrics. Please see the discussion in the section “Non-GAAP Financial Measures” and the reconciliations included at the end of this press release.</em></p>
+<p><em><sup> </sup></em><strong>Balance Sheet and Liquidity</strong></p>
+<p>As of June 30, 2025, D-Wave’s consolidated cash balance totaled a record $819.3 million, representing an over 1900% increase from the fiscal 2024 second quarter consolidated cash balance of $40.9 million, and a 169% increase from the immediately prior fiscal 2025 first quarter consolidated cash balance of $304.3 million.</p>
+<p>During the second quarter of fiscal 2025, the Company raised $400 million in gross proceeds from its fourth ATM equity offering program, $99.3 million in cash proceeds from the exercise of warrants, and $37.8 million in net proceeds from its Equity Line of Credit (ELOC) with Lincoln Park Capital Fund, LLC that fulfilled the $150 million commitment that was originally secured in June of 2022.</p>
+<p>D-Wave ended the second quarter of fiscal 2025 with a record $694.3 million in stockholders’ equity.</p>
+<p style="font-weight: 400;"><strong>Earnings Conference Call</strong></p>
+<p style="font-weight: 400;">D-Wave will host a conference call on Thursday, August 7, 2025, at 8:00 a.m. (Eastern Time), to discuss the Company’s financial results and business outlook. The live dial-in number is 1-800-717-1738 (domestic) or 1-646-307-1865 (international). Participants can use those dial-in numbers or can click this <a href="https://emportal.ink/3I9qbTS">link</a> for instant telephone access to the event. The link will be made active 15 minutes prior to the call’s scheduled start time. An on-demand webcast will be available on the D-Wave Investor Relations website after the call. Participating in the call will be Chief Executive Officer Dr. Alan Baratz and Chief Financial Officer John Markovich.</p>
+<p style="font-weight: 400;"><strong>About D-Wave Quantum Inc.</strong></p>
+<p style="font-weight: 400;">D-Wave is a leader in the development and delivery of quantum computing systems, software, and services. We are the world’s first commercial supplier of quantum computers, and the only company building both annealing and gate-model quantum computers. Our mission is to help customers realize the value of quantum, today. Our quantum computers — the world’s largest — feature QPUs with sub-second response times and can be deployed on-premises or accessed through our quantum cloud service, which offers 99.9% availability and uptime. More than 100 organizations trust D-Wave with their toughest computational challenges. With over 200 million problems submitted to our quantum systems to date, our customers apply our technology to address use cases spanning optimization, artificial intelligence, research and more. Learn more about realizing the value of quantum computing today and how we’re shaping the quantum-driven industrial and societal advancements of tomorrow: <a href="http://www.dwavequantum.com/">www.dwavequantum.com</a>.</p>
+<p style="font-weight: 400;"><strong>Non-GAAP Financial Measures </strong></p>
+<p style="font-weight: 400;">To supplement the financial information presented in accordance with GAAP, we use non-GAAP measures of certain components of financial performance. Each of Non-GAAP Gross Profit, Non-GAAP Gross Margin, Adjusted EBITDA Loss, Adjusted Net Loss, Adjusted Net Loss per Share and Non-GAAP Adjusted Operating Expenses is a financial measure that is not required by or presented in accordance with GAAP. Management believes that each measure provides investors an additional meaningful method to evaluate certain aspects of such results period over period. The Company defines each of its non-GAAP financial measures as follows:</p>
+<ul>
+<li>Non-GAAP Gross Profit is defined as GAAP gross profit less non-cash stock-based compensation expense and depreciation and amortization expense. We use Non-GAAP Gross Profit to measure, understand and evaluate our core operating performance and trends and to develop short-term and long-term operating plans.</li>
+<li>Non-GAAP Gross Margin is defined as GAAP gross margin less non-cash stock-based compensation expense. We use Non-GAAP Gross Margin to measure, understand and evaluate our core business performance.</li>
+<li>Adjusted EBITDA Loss is defined as net loss before interest expense, income tax expense (benefit), depreciation and amortization expense, stock-based compensation, remeasurements of liability-classified warrants, and other non-recurring non-operating income and expenses. We use Adjusted EBITDA Loss to measure the operating performance of our business, excluding specifically identified items that we do not believe directly reflect our core operations and may not be indicative of our recurring operations.</li>
+<li>Adjusted Net Loss and Adjusted Net Loss per Share are defined as net loss and net loss per share excluding the impact of the non-cash, non-operating charges associated with the remeasurement of the Company’s warrant liability.</li>
+<li>Non-GAAP Adjusted Operating Expenses is defined as operating expenses before depreciation and amortization expense, non-recurring one-time expenses and non-cash stock-based compensation expense. We use Non-GAAP Adjusted Operating expenses to measure our operating expenses, excluding items we do not believe directly reflect our core operations. </li>
+</ul>
+<p style="font-weight: 400;">The presentation of non-GAAP financial measures is not meant to be considered in isolation or as a substitute for the financial results prepared in accordance with GAAP, and our presentation of non-GAAP measures may be different from non-GAAP measures used by other companies. For a reconciliation of each of Non-GAAP Gross Profit, Non-GAAP Gross Margin, Adjusted EBITDA Loss, Adjusted Net Loss, Adjusted Net Loss per Share and Non-GAAP Adjusted Operating Expenses to its most directly comparable GAAP measure, please refer to the reconciliations below.</p>
+<p style="font-weight: 400;"><strong>Forward Looking Statements</strong></p>
+<p style="font-weight: 400;">Certain statements in this press release are forward-looking, as defined in the Private Securities Litigation Reform Act of 1995. These statements involve risks, uncertainties, and other factors that may cause actual results to differ materially from the information expressed or implied by these forward-looking statements and may not be indicative of future results. These forward-looking statements are subject to a number of risks and uncertainties, including, among others, various factors beyond management’s control, including the risks set forth under the heading “Risk Factors” discussed under the caption “Item 1A. Risk Factors” in Part I of our most recent Annual Report on Form 10-K or any updates discussed under the caption “Item 1A. Risk Factors” in Part II of our Quarterly Reports on Form 10-Q and in our other filings with the SEC. Undue reliance should not be placed on the forward-looking statements in this press release in making an investment decision, which are based on information available to us on the date hereof. We undertake no duty to update this information unless required by law.</p>
+<p style="font-weight: 400;"><strong>Contacts</strong></p>
+<p style="font-weight: 400;"><strong>Investor Contact:</strong></p>
+<p style="font-weight: 400;"><u>ir@dwavesys.com</u></p>
+<p style="font-weight: 400;"><strong>Media Contact:</strong></p>
+<p style="font-weight: 400;"><u>media@dwavesys.com</u></p>
+<p style="font-weight: 400;"><img src="/media/iuhndxvq/q225-1.png" alt="" width="683" height="776"></p>
+<p style="font-weight: 400;"><img src="/media/4ulfynji/q225-2.png" alt="" width="679" height="597"></p>
+<p style="font-weight: 400;"><img src="/media/etwoyb52/q225-3-v3.png" alt="" width="706" height="957"></p>
+<p style="font-weight: 400;"><img src="/media/33miyewh/q225-4.png" alt="" width="695" height="776"></p>
+<p style="font-weight: 400;"><img src="/media/4pwbjtpw/q225-5.png" alt="" width="714" height="815"></p>
+                        </div>
+                        
+
+                    </article>
+                    <div class="col-12 col-md-2 share-sidebar">
+                        <div class="share-sidebar__wrapper">
+                            <span class="share-sidebar__label">Share</span>
+                            
+
+
+<div class="c-social-share-links text-">
+    <div class="c-social-share-links__links">
+
+        <a class="facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.dwavequantum.com%2fcompany%2fnewsroom%2fpress-release%2fd-wave-reports-second-quarter-2025-results%2f&title=D-Wave+Reports+Second+Quarter+2025+Results" rel="noopener noreferrer" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">    <i class="fab fa-facebook-square"></i><span class="sr-only">Facebook</span></a>
+        <a class="twitter" target="_blank" href="http://twitter.com/share?text=D-Wave+Reports+Second+Quarter+2025+Results&url=https%3a%2f%2fwww.dwavequantum.com%2fcompany%2fnewsroom%2fpress-release%2fd-wave-reports-second-quarter-2025-results%2f" rel="noopener noreferrer" onclick="window.open(this.href, 'twitter-share', 'width=550,height=450'); return false;"><i class="fab fa-twitter"></i><span class="sr-only">Twitter</span></a>
+        <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.dwavequantum.com%2fcompany%2fnewsroom%2fpress-release%2fd-wave-reports-second-quarter-2025-results%2f&title=D-Wave+Reports+Second+Quarter+2025+Results" rel="noopener noreferrer" onclick="window.open(this.href, 'linkedin-share', 'width=600,height=550');return false;"><i class="fab fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+        <a class="email" href="mailto:&subject=D-Wave%20Reports%20Second%20Quarter%202025%20Results&body=https%3a%2f%2fwww.dwavequantum.com%2fcompany%2fnewsroom%2fpress-release%2fd-wave-reports-second-quarter-2025-results%2f" rel="noopener noreferrer"><i class="fas fa-envelope"></i><span class="sr-only">Email</span></a>
+    </div>
+</div>
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    </main>
+
+            <!-- (componentFooter) -->
+
+
+
+    <style>
+
+
+        footer.dwave__footer {
+            background-position: center bottom;
+            background-image: url('/media/cdyngmyb/lines-footer-desktop-2-c.png');
+            background-repeat: no-repeat;
+            background-color: rgba(0,0,0,0.7);
+        }
+
+
+
+        @media (min-width: 1920px) {
+            footer.dwave__footer {
+                background-position: center bottom;
+                background-image: url('/media/cdyngmyb/lines-footer-desktop-2-c.png');
+                background-repeat: no-repeat;
+            }
+        }
+
+
+                     
+                      @media (max-width: 768px) {
+                        footer.dwave__footer {
+                            background-position: center bottom;
+                            background-image: url('/media/w0ugfzye/lines-footer-tablet-c.png');
+                            background-repeat: no-repeat;
+                        }
+    }
+                      
+
+                       
+                      @media (max-width: 480px) {
+                        footer.dwave__footer {
+                            background-position: center bottom;
+                            background-image: url('/media/ghpluken/lines-footer-mobile-c.png');
+                            background-repeat: no-repeat;
+                        }
+    }
+                      
+
+    </style>
+
+<footer class="c-footer dark-footer dwave__footer" role="contentinfo">
+    <div class="container desktop-footer">
+        <div class="row">
+            <div class="col-lg-12 footer-separator">                  <div class="row footer__header--row">                  
+                    <div class="col-12 soc-container">
+                        <a href="https://www.aicpa.org/soc4so" target="_blank"><img src="/images/A-LIGN-SOC-Badge.png" class="soc-2" /></a>
+                    </div>
+                </div>                 <div class="row footer__header--row">
+                    <div class="col-12 col-md-6 col-lg-8 footer-logo--cont">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                                        <img src="/media/j31olsrx/d-wave-corporate-logo-full-color-light.png" width="170" alt="Footer Logo" class="footer-logo" />
+
+                            </div>
+                            <div class="col-md-12 col-lg-8 c-footer__newsletter-wrapper">
+                                <div class="c-footer__newsletter">
+                                    <a href="/website-marketing-opt-in/">
+                                        Join Our Email Marketing List  <span><i class="fas fa-chevron-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col-12 col-md-6 col-lg-4">
+                            
+                        <div class="c-footer__social-links">
+                            
+
+
+<div class="cp-social-page-links">
+
+    <div class="cp-social-page-links__links">
+        <span class="follow-us-label">Follow Us</span>
+            <a class="facebook" data-network="Facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/dwavequantum"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a>
+                    <a class="linkedin" data-network="LinkedIn" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/d-wave-systems-inc."><i class="fab fa-linkedin-in"></i><span class="sr-only">LinkedIn</span></a>
+                    <a class="youtube" data-network="YouTube" target="_blank" rel="noopener noreferrer" href="https://youtube.com/user/dwavesystems"><i class="fab fa-youtube"></i><span class="sr-only">YouTube</span></a>
+                    <a class="twitter" data-network="Twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/dwavequantum"><i class="fab fa-twitter"></i><span class="sr-only">Twitter</span></a>
+        
+
+
+    </div>
+
+</div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Main Menu Links -->
+                    <div class="col-lg-12 footer-separator footer-main-menu">
+                        <div class="footer_main_block">
+                            <div class="footer__inner--block">
+                                <div class="row footer__lbc--cont">
+                                            <div class="col-sm-4 col-12">
+                                                <h3>
+                                                    Products
+                                                </h3>
+                                                    <ul class="footer-main-link-ul">
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/solutions-and-products/product-overview/" alt="Product Overview">Product Overview</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/solutions-and-products/cloud-platform/" alt="Cloud Platform">Cloud Platform</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/solutions-and-products/systems/" alt="Systems">Systems</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/solutions-and-products/professional-services/" alt="Professional Services">Professional Services</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/solutions-and-products/ocean/" alt="Software &amp; Tools">Software &amp; Tools</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/learn/training/" alt="Learning Solutions">Learning Solutions</a>
+                                                            </li>
+                                                    </ul>
+                                            </div>
+                                            <div class="col-sm-4 col-12">
+                                                <h3>
+                                                    Solutions
+                                                </h3>
+                                                    <ul class="footer-main-link-ul">
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/solutions-and-products/quantum-optimization/quantum-optimization-landing-page/" alt="Quantum Optimization Summary">Quantum Optimization Summary</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/solutions-and-products/quantum-optimization/workforce-scheduling/" alt="Workforce Scheduling">Workforce Scheduling</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/solutions-and-products/quantum-optimization/production-scheduling/" alt="Production Scheduling">Production Scheduling</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/solutions-and-products/quantum-optimization/logistics-routing/" alt="Vehicle Routing">Vehicle Routing</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/solutions-and-products/quantum-optimization/resource-optimization/" alt="Resource Optimization">Resource Optimization</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/solutions-and-products/quantum-optimization/cargo-loading/" alt="Cargo Loading">Cargo Loading</a>
+                                                            </li>
+                                                    </ul>
+                                            </div>
+                                            <div class="col-sm-4 col-12">
+                                                <h3>
+                                                    Sectors
+                                                </h3>
+                                                    <ul class="footer-main-link-ul">
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/solutions-and-products/manufacturing-logistics/" alt="Manufacturing &amp; Logistics">Manufacturing &amp; Logistics</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/solutions-and-products/public-sector/" alt="Public Sector">Public Sector</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/solutions-and-products/quantum-optimization/quantum-research-landing-page/" alt="Quantum Research">Quantum Research</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/solutions-and-products/quantum-optimization/quantum-ai-landing-page/" alt="Quantum AI">Quantum AI</a>
+                                                            </li>
+                                                    </ul>
+                                            </div>
+                                            <div class="col-sm-4 col-12">
+                                                <h3>
+                                                    Learn
+                                                </h3>
+                                                    <ul class="footer-main-link-ul">
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/learn/quantum-computing/" alt="Quantum Computing">Quantum Computing</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/learn/d-wave-s-approach/" alt="D-Wave&#39;s Approach">D-Wave&#39;s Approach</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/learn/customer-success-stories/" alt="Customer Success Stories">Customer Success Stories</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/learn/featured-applications/" alt="Featured Applications">Featured Applications</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/learn/resource-library/" alt="Resource Library">Resource Library</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/learn/publications/" alt="Publications">Publications</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/learn/events-and-webinars/" alt="Events &amp; Webinars">Events &amp; Webinars</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/learn/training/" alt="Training">Training</a>
+                                                            </li>
+                                                    </ul>
+                                            </div>
+                                            <div class="col-sm-4 col-12">
+                                                <h3>
+                                                    Build
+                                                </h3>
+                                                    <ul class="footer-main-link-ul">
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/build/getting-started/" alt="Getting Started">Getting Started</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/solutions-and-products/developer/" alt="Developer">Developer</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="https://docs.dwavesys.com/docs/latest/index.html" alt="Documentation" target="_blank">Documentation</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="https://support.dwavesys.com/hc/en-us/community/topics" alt="Community Forums" target="_blank">Community Forums</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="https://github.com/dwave-examples" alt="Code Samples" target="_blank">Code Samples</a>
+                                                            </li>
+                                                    </ul>
+                                            </div>
+                                            <div class="col-sm-4 col-12">
+                                                <h3>
+                                                    Company
+                                                </h3>
+                                                    <ul class="footer-main-link-ul">
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/company/about-d-wave/" alt="About D-Wave">About D-Wave</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/company/leadership/" alt="Leadership">Leadership</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/company/careers/" alt="Careers">Careers</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/learn/events-and-webinars/" alt="Events &amp; Webinars">Events &amp; Webinars</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/company/newsroom/" alt="Newsroom">Newsroom</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/company/media-resources/" alt="Media Resources">Media Resources</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="https://ir.dwavesys.com/overview/default.aspx" alt="Investor Relations">Investor Relations</a>
+                                                            </li>
+                                                            <li class="mobile-50-percent">
+
+
+                                                                <a href="/company/contact/" alt="Contact">Contact</a>
+                                                            </li>
+                                                    </ul>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            <!-- External Links -->
+                    <div class="col-lg-12 footer-separator footer__extlinks--cont">
+
+                        <div class="footer_main_block">
+                            <div class="footer__inner--block">
+                                <div class="row footer__more--row">
+                                    <div class="col-sm-12 col-md-4">
+                                        <h3 class="footer__more_text">More D-Wave</h3>
+                                    </div>
+
+                                        <div class="col-sm-12 col-md-4">
+                                            <a href="https://dwavejapan.com/" target="_blank">D-Wave Japan <i class="fas fa-arrow-up new-window-arrow"></i></a>
+
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            <div class="col-lg-12 footer-separator footer__copyright--cont">
+                <div class="footer_main_block">
+                    <div class="footer__inner--block">
+                        <div class="row">
+
+                            <div class="col-sm-5 col-md-4 col-xs-12">
+                                <div class="c-footer__legal-text"><p>Copyright 2025 D-Wave Quantum Inc.</p></div>
+                            </div>
+                            <div class="col-sm-7 col-md-6 col-xs-12">
+                                <ul class="c-footer--secondary-links list-unstyled">
+                                            <li><a href="/privacy-policy/">Privacy Policy</a></li>
+                                            <li><a href="/terms-and-conditions/">Terms and Conditions</a></li>
+                                            <li><a href="/patent-notice/">Patent Notice</a></li>
+
+
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+    
+
+
+
+    <script src="/js/frameworks-libraries/jquery-3.6.0.min.js"></script>
+<script src="/js/frameworks-libraries/popper-1.14.7.min.js"></script>
+<script src="/js/frameworks-libraries/bootstrap-4.1.3/bootstrap.min.js"></script>
+<script src="/js/common/loadMore.js"></script>
+<script src="/js/common/cookieHelper.js"></script>
+<script src="/js/components/placeholder.js"></script>
+<script src="/js/components/videomodal.js"></script>
+<script src="/js/components/contentmodal.js"></script>
+<script src="/js/components/alertMessageBlade.js"></script>
+<script src="/js/components/statItem.js"></script>
+<script src="/js/components/global.js"></script>
+<script src="/js/components/formCountryLogic.js"></script>
+
+    
+    
+
+    <script src="/js/frameworks-libraries/css3-animate-it.js"></script>
+    <script src="/js/frameworks-libraries/slick.min.js"></script>
+    <script src="/js/components/carousel.js"></script>
+    <script src="/js/components/global.js"></script>
+    <script src="/js/components/formCountryLogic.js"></script>
+
+    <script src="/js/frameworks-libraries/slick.min.js"></script>
+    <script src="/js/components/carousel.js"></script>
+
+
+    
+
+
+
+    <!-- Schema Objects -->
+    
+    
+
+    
+
+
+
+<script type="application/ld+json">
+    {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement":
+    [
+             {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+            "@id": "https://www.dwavequantum.com/",
+            "name": "Home Page"
+            }
+            }
+            ,
+         {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+            "@id": "https://www.dwavequantum.com/company/",
+            "name": "Company"
+            }
+            }
+            ,
+         {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+            "@id": "https://www.dwavequantum.com/company/newsroom/",
+            "name": "Newsroom"
+            }
+            }
+            ,
+         {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+            "@id": "https://www.dwavequantum.com/company/newsroom/press-release/",
+            "name": "Press Release"
+            }
+            }
+            ,
+         {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+            "@id": "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-reports-second-quarter-2025-results/",
+            "name": "D-Wave Reports Second Quarter 2025 Results"
+            }
+            }
+
+    ]
+    }
+
+</script>
+
+
+
+
+    <script src="/scripts/formValidations.js"></script>
+
+
+
+    <!-- video lighbox Modal -->
+    <div class="modal fade c-video-modal" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="video-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <span class="closer" data-dismiss="modal"></span>
+                <div class="modal-body clearfix">
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Modal -->
+    <div class="modal fade c-content-modal" id="content-modal" tabindex="-1" role="dialog" aria-labelledby="content-modal">
+        <div class="modal-dialog modal-lg " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

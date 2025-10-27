@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en-US" data-ember-extension="1">
+	<!--<![endif]-->
+	<head>
+<!-- begin spin_special_output(head_start) -->
+<script type="text/javascript" wd_script_id="view_printable_script" nonce="YmQzMTFkZDRlYmUwNzNhM2RlNWQyMGE4MDMwZDA2YjQ3YjcxY2UwZA==">
+	function view_printable() {
+		var loc = window.location;
+		var sep = (loc.search == "") ? "?" : "&";
+		var url = loc.protocol+"//"+loc.host+loc.pathname+loc.search+sep+"printable"+loc.hash;
+		window.open(url, "_blank", "");
+	}
+</script>
+<link href="thirdparty/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" wd_script_id="font-awesome.min.css">
+<style type="text/css" wd_script_id="toolbar_style" nonce="YmQzMTFkZDRlYmUwNzNhM2RlNWQyMGE4MDMwZDA2YjQ3YjcxY2UwZA==">
+			div.wd_toolbar {
+				border-top: 1px solid #cccccc;
+				border-bottom: 1px solid #cccccc;
+				margin: 15px 0px 15px 0px;
+				padding: 5px;
+				line-height: 1;
+			}
+			div.wd_toolbar-page {
+				clear: both;
+			}
+			div.wd_toolbar ul.wd_tools {
+				display: inline-block;
+				width: 100%;
+				margin: 0;
+				padding: 5px 0;
+			}
+			div.wd_toolbar ul.wd_tools li.wd_tool {
+				display: block;
+				list-style-type: none;
+				margin-right: 5px;
+				padding: 0;
+				float: right;
+			}
+			span.wd_tool_icon > a:link,
+			span.wd_tool_icon > a:visited {
+				border-radius: 2px;
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				box-sizing: border-box;
+				margin: 0;
+				padding: 7px;
+				font-size: 16px;
+				line-height: 1;
+				text-align: center;
+				color: #ffffff;
+				background-color: #767676;
+			} 
+			span.wd_tool_icon > a:hover {
+				color: #ffffff;
+				background-color: #666666;
+				text-decoration: none;
+			}
+			div.wd_toolbar ul.wd_tools li.wd_tool-addthis {
+				float: left;
+			}
+		</style>
+<script type="text/javascript" src="js/jquery-webdriver.js" wd_script_id="jquery-webdriver.js" nonce="YmQzMTFkZDRlYmUwNzNhM2RlNWQyMGE4MDMwZDA2YjQ3YjcxY2UwZA=="></script>
+<script type="text/javascript" src="js/webdriver.js" wd_script_id="webdriver.js" nonce="YmQzMTFkZDRlYmUwNzNhM2RlNWQyMGE4MDMwZDA2YjQ3YjcxY2UwZA=="></script>
+<script type="text/javascript" src="js/wd_resize.js" wd_script_id="wd_resize.js" nonce="YmQzMTFkZDRlYmUwNzNhM2RlNWQyMGE4MDMwZDA2YjQ3YjcxY2UwZA=="></script>
+<script type="text/javascript" wd_script_id="format_news_script" nonce="YmQzMTFkZDRlYmUwNzNhM2RlNWQyMGE4MDMwZDA2YjQ3YjcxY2UwZA==">
+(function($) {
+	webDriver.formatNews = function() {
+		var $news = $(this);
+		var print_url = $news.attr("wd_print_url");
+		$news.find("table").each(function() {
+			var $table = $(this);
+			var $parent = $table.parent();
+			if ($parent.innerWidth() < $table.outerWidth()) {
+				if ($parent.hasClass("wd_news_table")) {
+					$parent.find(".fullscreen-button").show();
+				} else {
+					var $btn = $("<button>View News Release Full Screen</button>")
+						.addClass("fullscreen-button")
+						.on("click", function() {
+							if (print_url)
+								window.open(print_url, "_blank", "");
+							else
+								view_printable();
+						})
+					;
+
+					var $div = $("<div></div>)")
+						.addClass("wd_news_table")
+						.css("overflow-x", "auto")
+						.append($btn)
+					;
+
+					$table.replaceWith($div);
+					$div.append($table);
+				}
+			} else {
+				if ($parent.hasClass("wd_news_table"))
+					$parent.find(".fullscreen-button").hide();
+			}
+		});
+	}
+})(webDriver.jQuery);
+</script>
+<style type="text/css" wd_script_id="template detail:newsfeed_releases:system style" nonce="YmQzMTFkZDRlYmUwNzNhM2RlNWQyMGE4MDMwZDA2YjQ3YjcxY2UwZA==">
+.wd_title {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.wd_subtitle {
+	font-weight: bold;
+}
+table.wd_extimagetable {
+	border-style: none; 
+	border-spacing:0px;
+	clear: right; 
+	float: right; 
+}
+td.wd_extimagecell {
+	text-align: right; 
+	margin: 0px 0px 5px 5px;
+	padding:0px;
+}
+td.wd_extimagecell img {
+	padding-left:10px;
+	padding-bottom:10px;
+	border-style: none; 
+}
+blockquote.wd_pullquote {
+	font-style: italic;
+	width:200px;
+	margin:0 0 20px 20px;
+	line-height: 1.8em;
+	float: right;
+	clear: right;
+}
+blockquote.wd_pullquote:before {
+	content: "“ ";
+	font-size: xx-large;
+}
+blockquote.wd_pullquote:after {
+	content: " ”";
+	font-size: xx-large;
+	float: right;
+}
+.fullscreen-button {
+	border: 1px solid #d1d1d1;
+	background: #e3e3e3 url(images/webdriver/view_full_screen_button_background.png) no-repeat;
+	padding: 3px 3px 3px 30px;
+	margin: 5px 0px 5px 0px;
+	color: #727272;
+	width: 220px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.wd_contact {
+	margin: 1em 0;
+}
+.wd_release_data {
+	margin: 1em 0;
+}
+.wd_caption {
+	text-align: center;
+	font-size: 0.72em;
+	font-style: italic;
+	margin: 1em 0 0 0;
+}
+</style>
+
+<!-- end spin_special_output(head_start) -->
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+		<script type="text/javascript">Phx.AjaxToken = 'b11f528329bbcb978c6263efe73939aa2452db019b4dead38bbb2a9ddfa7cb25';</script>
+		<script type="text/javascript">var s_CCSWebHostingAccount = "trcgclientweb3147";</script>
+		<script type="text/javascript" async="async" src="js/CoreClientCode.js"></script>
+		<link href="css/HttpCombiner.ashx" type="text/css" rel="stylesheet">
+		<meta charset="UTF-8">
+		<!--[if lt IE 9]>	
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<![endif]-->	
+		<title>Viking Therapeutics Reports Second Quarter 2025 Financial Results and Provides Corporate Update - Jul 23, 2025</title>
+		
+ <meta name="keywords" content="" />
+ <meta name="description" content="" />
+ <meta name="twitter:card" content="summary" />
+ <meta name="twitter:title" content="Viking Therapeutics Reports Second Quarter 2025 Financial Results and Provides Corporate Update" />
+ <meta name="twitter:description" content="Conference call scheduled for 4:30 p.m. ET today Phase 3 VANQUISH Registration Trials Underway for VK2735 in Obesity Phase 2 VENTURE-Oral Dosing Trial Enrollment Completed; Top-Line Results..." />
+ <meta property="og:site_name" content="Viking Therapeutics InvestorRoom" />
+ <meta property="og:url" content="https://ir.vikingtherapeutics.com/2025-07-23-Viking-Therapeutics-Reports-Second-Quarter-2025-Financial-Results-and-Provides-Corporate-Update" />
+ <meta property="og:title" content="Viking Therapeutics Reports Second Quarter 2025 Financial Results and Provides Corporate Update" />
+ <meta property="og:description" content="Conference call scheduled for 4:30 p.m. ET today Phase 3 VANQUISH Registration Trials Underway for VK2735 in Obesity Phase 2 VENTURE-Oral Dosing Trial Enrollment Completed; Top-Line Results..." />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" id="fp_webfont_Open_Sans-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic&amp;ver=3.5.2" type="text/css" media="all">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" id="fp_frontend_css-css" href="css/frontend.css" type="text/css" media="all">
+		<link rel="stylesheet" id="contact-form-7-css" href="css/styles.css" type="text/css" media="all">
+		<link rel="stylesheet" id="bootstrap-css" href="css/bootstrap.css" type="text/css" media="all">
+		<link rel="stylesheet" id="font-awesome-css" href="css/font-awesome.css" type="text/css" media="all">
+		<link rel="stylesheet" id="font-awesome-ie7-css" href="css/font-awesome-ie7.css" type="text/css" media="all">
+		<link rel="stylesheet" id="shortcodes-css" href="css/shortcodes.css" type="text/css" media="all">
+		<link rel="stylesheet" id="audioPlayerV1-skin-css" href="css/style.css" type="text/css" media="all">
+		<link rel="stylesheet" id="prettyPhoto-css" href="css/prettyPhoto.css" type="text/css" media="all">
+		<link rel="stylesheet" id="flexSlider-css" href="css/flexslider.css" type="text/css" media="all">
+		<link rel="stylesheet" id="retweets-css" href="css/retweets.css" type="text/css" media="all">
+		<link rel="stylesheet" id="flip-css" href="css/flip.css" type="text/css" media="all">
+		<link rel="stylesheet" id="main-stylesheet-css" href="css/style(1).css" type="text/css" media="all">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/comment-reply.min.js"></script>
+		<link rel="shortcut icon" href="https://www.vikingtherapeutics.com/wp-content/uploads/logo-favico.png">
+		<script type="text/javascript">
+			var defaultAnimation = 'flip';
+			var slideText = 'show';	
+			
+			// jQuery(document).ready(function($){
+			// 	$("#content").preloader({loader: 'https://www.vikingtherapeutics.com/wp-content/themes/flipit/images/loading.gif'});
+			// });
+		</script>
+		<script type="text/javascript">
+			jQuery(window).load(function(){
+				if(jQuery(".logo_holder").height() > 30){
+					jQuery(".nav").css("margin-top", (jQuery(".logo_holder").height() - 45) + "px");
+				}
+			});
+		</script>
+		<!--[if lt IE 9]>	
+		<script>
+			document.createElement('header');
+			document.createElement('nav');
+			document.createElement('section');
+			document.createElement('article');
+			document.createElement('aside');
+			document.createElement('footer');
+		</script>
+		<![endif]-->	
+		<link rel="stylesheet" type="text/css" href="css/ir-inline.css">
+		<link rel="stylesheet" type="text/css" href="css/ccbnIR.css">
+		<script src="js/HttpCombiner(1).ashx" type="text/javascript"></script>
+		<script type="text/javascript" src="js/s_code.js"></script>
+		
+		
+		<link rel="stylesheet" type="text/css" href="css/wdcontent.css">
+		<link rel="stylesheet" type="text/css" href="css/wd_media_query.css">
+
+		<link rel="alternate" href="https://ir.vikingtherapeutics.com/press-releases?pagetemplate=rss" type="application/rss+xml" title="Viking Therapeutics - Press Releases">		
+	
+<!-- begin spin_special_output(head_end) -->
+<link rel="canonical" href="https://ir.vikingtherapeutics.com/2025-07-23-Viking-Therapeutics-Reports-Second-Quarter-2025-Financial-Results-and-Provides-Corporate-Update" />
+<!-- end spin_special_output(head_end) -->
+</head>
+    <body class="wd_pageid_ page page-id-11 page-parent page-template page-template-page-fullwidth-php layout-2cr" cz-shortcut-listen="true">
+		<div id="mboxScriptContainer" style="display:none;visibility:hidden;"></div>
+		<style>.mboxDefault{visibility:hidden;}</style>
+		<div id="wrap" class="navPositionleft">
+			<div id="container" class="container">
+				<header id="header">
+					<div class="navbar">
+						<div class="navbar-inner">
+							<div class="container">
+								<div class="logo_holder"><a href="http://www.vikingtherapeutics.com/"><img src="https://www.vikingtherapeutics.com/wp-content/uploads/viking-logo-top-3.png" alt="Viking Therapeutics"></a></div>
+								<a class="btn-flat" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
+								<div class="nav-collapse collapse" style="height: 0;">
+									<nav id="jqueryslidemenu" class="jqueryslidemenu">
+										<ul class="nav" style="margin-top: 48px;">
+											<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9 current_page_item menu-item-21"><a href="http://www.vikingtherapeutics.com/">Home</a></li>
+											<li id="menu-item-372" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-372 dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
+												<ul class="sub-menu dropdown-menu">
+													<li id="menu-item-374" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-374"><a href="http://www.vikingtherapeutics.com/about/">Overview</a></li>
+													<li id="menu-item-371" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-371"><a href="http://www.vikingtherapeutics.com/about/management/">Management</a></li>
+													<li id="menu-item-370" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-370"><a href="http://www.vikingtherapeutics.com/about/board-of-directors/">Board of Directors</a></li>
+													<li id="menu-item-369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-369"><a href="http://www.vikingtherapeutics.com/about/careers/">Careers</a></li>
+												</ul>
+											</li>
+											<li id="menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-381 dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Pipeline<b class="caret"></b></a>
+												<ul class="sub-menu dropdown-menu">
+													<li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"><a href="http://www.vikingtherapeutics.com/pipeline/overview/">Overview</a></li>
+													<li id="menu-item-394" class="no-link menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-394"><a href="http://www.vikingtherapeutics.com/pipeline/vk0214/">Metabolic Disease Programs</a>
+														<ul class="sub-menu">
+															<li id="menu-item-1141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1141"><a href="https://vikingtherapeutics.com/pipeline/metabolic-disease-program/vk2809/">VK2809 (NASH)</a></li>
+															<li id="menu-item-1140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1140"><a href="https://vikingtherapeutics.com/pipeline/metabolic-disease-program/vk2735/">VK2735 (Metabolic Disorders)</a></li>
+														</ul>
+													</li>
+													<li id="menu-item-887" class="no-link menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-887"><a href="http://www.vikingtherapeutics.com/pipeline/rare-disease-programs/">Rare Disease Program</a>
+														<ul class="sub-menu">
+															<li id="menu-item-1139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1139"><a href="https://vikingtherapeutics.com/pipeline/rare-disease-programs/vk0214/">VK0214 (X-ALD)</a></li>
+														</ul>
+													</li>
+													<li id="menu-item-888" class="no-link menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-888"><a href="http://www.vikingtherapeutics.com/pipeline/other-pipeline-programs/">Other Pipeline Programs</a>
+														<ul class="sub-menu">
+															<li id="menu-item-1138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1138"><a href="https://vikingtherapeutics.com/pipeline/other-pipeline-programs/vk5211/">VK5211 (Hip Fracture, Muscle Wasting)</a></li>
+															<li id="menu-item-1136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1136"><a href="https://vikingtherapeutics.com/pipeline/other-pipeline-programs/vk0612/">VK0612 (Type 2 Diabetes)</a></li>
+															<li id="menu-item-1137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1137"><a href="https://vikingtherapeutics.com/pipeline/other-pipeline-programs/vk1430/">VK1430 (Hypertriglyceridemia, NASH)</a></li>
+															<li id="menu-item-1135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1135"><a href="https://vikingtherapeutics.com/pipeline/other-pipeline-programs/epor-agonist-program/">EPOR Agonist Program (Anemia)</a></li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+											<li id="menu-item-555" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-555 dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Investors & Media<b class="caret"></b></a>
+												<ul class="sub-menu dropdown-menu">
+													
+
+<li>
+	<a href="https://ir.vikingtherapeutics.com/overview" target="_self">
+		Overview	</a>
+</li>
+
+
+
+
+<li>
+	<a href="https://ir.vikingtherapeutics.com/stock-information" target="_self">
+		Stock Information	</a>
+</li>
+
+
+
+
+<li>
+	<a class="ir-active" href="press-releases" target="_self">
+		News & Events	</a>
+</li>
+
+
+
+
+<li>
+	<a href="https://ir.vikingtherapeutics.com/sec-filings" target="_self">
+		SEC Filings	</a>
+</li>
+
+
+
+
+<li>
+	<a href="https://ir.vikingtherapeutics.com/analyst-coverage" target="_self">
+		Analyst Coverage	</a>
+</li>
+
+
+
+
+<li>
+	<a href="governance-highlights" target="_self">
+		Corporate Governance	</a>
+</li>
+
+
+
+
+<li>
+	<a href="information-request" target="_self">
+		Shareholder Services	</a>
+</li>
+
+
+
+
+<li>
+	<a href="https://ir.vikingtherapeutics.com/corporatepresentation" target="_self">
+		Corporate Presentation 	</a>
+</li>
+
+
+
+
+												</ul>
+											</li>
+											<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://www.vikingtherapeutics.com/contact/">Contact</a></li>
+										</ul>
+										<div class="clear"></div>
+									</nav>
+								</div>
+								<div class="pull-right">
+									<ul class="nav_social"></ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+				<hr class="cool_divider">
+				<div class="page_title">
+					<div class="clearfix"></div>
+				</div>
+				<div id="main" role="main" class="row layout_">
+					<section id="content" class="span12">
+						<article id="post-11" class="post-11 page type-page status-publish hentry">
+							<h1>News & Events</h1>
+							<p><img class="alignnone size-large wp-image-52" alt="Investors" src="images/section-stock-1024x262.jpg" width="1024" height="262"></p>
+							<div class="row-fluid">
+																<div class="span12">									<div class="ccbnContent">
+																				<!-- BEGIN CONTENT -->	
+										<div class="wd_content" >
+																							<a class="wd_back" href="#" onclick="window.history.back();return false;"><< Back</a>
+																					<div id="wd_printable_content" class="fr-view">
+<div class="wd_newsfeed_releases-detail">
+<div class="wd_title wd_language_left">Viking Therapeutics Reports Second Quarter 2025 Financial Results and Provides Corporate Update</div>
+
+<div class="wd_toolbar wd_toolbar-detail"><ul class="wd_tools"><li class="wd_tool wd_tool-print"><span class="wd_tool_icon"><a onclick="view_printable(); return false;" rel="nofollow" href="#print" title="print"><span class="fa fa-print"></span></a></span></li><li class="wd_tool wd_tool-socialshare_facebook"><span class="wd_tool_icon">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fir.vikingtherapeutics.com%2Findex.php%3Fs%3D43%26item%3D255" target="_blank" title="Facebook Share" style="background-color:#4267B2;">
+                    <span class="fa fa-facebook"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable"></span>
+                    </a>
+                </span></li><li class="wd_tool wd_tool-socialshare_linkedin"><span class="wd_tool_icon">
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fir.vikingtherapeutics.com%2Findex.php%3Fs%3D43%26item%3D255" target="_blank" title="Linkedin Share" style="background-color:#0077B5;">
+                    <span class="fa fa-linkedin"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable"></span>
+                    </a>
+                </span></li><li class="wd_tool wd_tool-socialshare_twitter"><span class="wd_tool_icon">
+                    <a href="https://twitter.com/share?url=https%3A%2F%2Fir.vikingtherapeutics.com%2Findex.php%3Fs%3D43%26item%3D255" target="_blank" title="Twitter Share" style="background-color:#000;">
+                    <span class="fa fa-twitter"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable"></span>
+                    </a>
+                </span></li><li class="wd_tool wd_tool-email"><span class="wd_tool_icon"><a onclick="window.location.href = 'mailto:?subject=Viking%20Therapeutics%20Reports%20Second%20Quarter%202025%20Financial%20Results%20and%20Provides%20Corporate%20Update%20-%20Jul%2023%2C%202025&amp;body='+encodeURIComponent(window.location.href);return false;" href="#email" title="email"><span class="fa fa-envelope"></span></a></span></li><li class="wd_tool wd_tool-rss"><span class="wd_tool_icon"><a href="https://ir.vikingtherapeutics.com/index.php?s=95&amp;rsspage=43" title="rss"><span class="fa fa-rss"></span></a></span></li></ul></div>
+
+
+
+			
+		
+
+			
+		
+
+<style type="text/css">
+
+
+/* Style Definitions */
+span.prnews_span
+{
+font-size:8pt;
+font-family:"Arial";
+color:black;
+}
+a.prnews_a
+{
+color:blue;
+}
+li.prnews_li
+{
+font-size:8pt;
+font-family:"Arial";
+color:black;
+}
+p.prnews_p
+{
+font-size:0.62em;
+font-family:"Arial";
+color:black;
+margin:0in;
+}
+.prngen3{
+PADDING-RIGHT:0.33em; PADDING-LEFT:0.17em; VERTICAL-ALIGN: BOTTOM; TEXT-ALIGN: RIGHT; BORDER-TOP:black 1pt; BORDER-RIGHT:black 1pt; BORDER-BOTTOM:black 1pt; BORDER-LEFT:black 1pt
+}
+.prngen11{
+PADDING-RIGHT:0.17em; PADDING-LEFT:0.17em; VERTICAL-ALIGN: BOTTOM; TEXT-ALIGN: RIGHT; BORDER-TOP:black 1pt; BORDER-RIGHT:black 1pt; BORDER-BOTTOM:black 1pt; BORDER-LEFT:black 1pt
+}
+.prngen2{
+PADDING-RIGHT:0.17em; PADDING-LEFT:0.17em; VERTICAL-ALIGN: BOTTOM; TEXT-ALIGN: CENTER; BORDER-TOP:black 1pt; BORDER-RIGHT:black 1pt; BORDER-BOTTOM:black 1pt; BORDER-LEFT:black 1pt
+}
+.prngen4{
+PADDING-RIGHT:0.17em; PADDING-LEFT:0.17em; VERTICAL-ALIGN: BOTTOM; TEXT-ALIGN: CENTER; BORDER-TOP:black 1pt; BORDER-RIGHT:black 1pt; BORDER-BOTTOM:black 0.5pt solid; BORDER-LEFT:black 1pt
+}
+.prngen6{
+PADDING-RIGHT:0.33em; PADDING-LEFT:0.17em; VERTICAL-ALIGN: BOTTOM; TEXT-ALIGN: RIGHT; BORDER-TOP:black 0.5pt solid; BORDER-RIGHT:black 1pt; BORDER-BOTTOM:black 1pt; BORDER-LEFT:black 1pt
+}
+.prngen10{
+PADDING-RIGHT:0.17em; PADDING-LEFT:0.17em; VERTICAL-ALIGN: BOTTOM; TEXT-ALIGN: RIGHT; BORDER-TOP:black 1pt; BORDER-RIGHT:black 1pt; BORDER-BOTTOM:black 0.5pt solid; BORDER-LEFT:black 1pt
+}
+.prngen12{
+PADDING-RIGHT:0.33em; PADDING-LEFT:0.17em; VERTICAL-ALIGN: BOTTOM; TEXT-ALIGN: RIGHT; BORDER-TOP:black 1pt; BORDER-RIGHT:black 1pt; BORDER-BOTTOM:black 3PT double; BORDER-LEFT:black 1pt
+}
+.prngen13{
+PADDING-RIGHT:0.17em; PADDING-LEFT:0.17em; VERTICAL-ALIGN: BOTTOM; TEXT-ALIGN: RIGHT; BORDER-TOP:black 1pt; BORDER-RIGHT:black 1pt; BORDER-BOTTOM:black 3PT double; BORDER-LEFT:black 1pt
+}
+.prngen5{
+PADDING-RIGHT:0.33em; PADDING-LEFT:0.17em; VERTICAL-ALIGN: BOTTOM; TEXT-ALIGN: CENTER; BORDER-TOP:black 1pt; BORDER-RIGHT:black 1pt; BORDER-BOTTOM:black 0.5pt solid; BORDER-LEFT:black 1pt
+}
+.prngen9{
+PADDING-RIGHT:0.33em; PADDING-LEFT:0.17em; VERTICAL-ALIGN: BOTTOM; TEXT-ALIGN: RIGHT; BORDER-TOP:black 1pt; BORDER-RIGHT:black 1pt; BORDER-BOTTOM:black 0.5pt solid; BORDER-LEFT:black 1pt
+}
+.prngen7{
+PADDING-RIGHT:0.33em; PADDING-LEFT:0.17em; VERTICAL-ALIGN: BOTTOM; TEXT-ALIGN: CENTER; BORDER-TOP:black 0.5pt solid; BORDER-RIGHT:black 1pt; BORDER-BOTTOM:black 0.5pt solid; BORDER-LEFT:black 1pt
+}
+.prngen8{
+PADDING-RIGHT:0.17em; PADDING-LEFT:0.17em; VERTICAL-ALIGN: BOTTOM; BORDER-TOP:black 1pt; BORDER-RIGHT:black 1pt; BORDER-BOTTOM:black 1pt; BORDER-LEFT:black 1pt
+}
+.prnml4{
+MARGIN-TOP:0em; MARGIN-RIGHT:0em; MARGIN-BOTTOM:0em; MARGIN-LEFT:0.33em !IMPORTANT
+}
+.prnml10{
+MARGIN-TOP:0em; MARGIN-RIGHT:0em; MARGIN-BOTTOM:0em; MARGIN-LEFT:0.83em !IMPORTANT
+}
+.prnbcc{
+BORDER-COLLAPSE: COLLAPSE; BORDER-TOP:1pt  black; BORDER-RIGHT:1pt  black; BORDER-BOTTOM:1pt  black; BORDER-LEFT:1pt  black
+}
+.prnml20{
+MARGIN-TOP:0em; MARGIN-RIGHT:0em; MARGIN-BOTTOM:0em; MARGIN-LEFT:1.67em !IMPORTANT
+}
+.prntac{
+TEXT-ALIGN: CENTER
+}
+
+					span.prnews_span{
+						font-size:inherit;
+						font-family:inherit;
+					}
+					li.prnews_li{
+						font-size: inherit;
+						font-family: inherit;           
+					}
+					p.prnews_p{
+						font-size: inherit;
+						font-family: inherit;           
+					}
+				</style>
+
+<div class="wd_body wd_news_body fr-view" wd_resize="formatNews" wd_print_url="https://ir.vikingtherapeutics.com/2025-07-23-Viking-Therapeutics-Reports-Second-Quarter-2025-Financial-Results-and-Provides-Corporate-Update?printable=1">
+<p class="prntac"><i>Conference call scheduled for <span class="xn-chron">4:30 p.m. ET</span> today</i></p>
+<ul type="disc"><li><b>Phase 3 VANQUISH Registration Trials Underway for VK2735 in Obesity</b></li><li><b>Phase 2 VENTURE-Oral Dosing Trial Enrollment Completed; Top-Line Results Expected 2H25</b></li><li><b>Continued Progress with </b><b>Amylin Program; IND Planned 4Q25</b></li><li><b>Strong Quarter-End Cash Position of <span class="xn-money">$808 Million</span></b></li></ul><p><span class="legendSpanClass"><span class="xn-location">SAN DIEGO</span></span>, <span class="legendSpanClass"><span class="xn-chron">July 23, 2025</span></span> /<a href="http://www.prnewswire.com/" target="_blank">PRNewswire</a>/ -- Viking Therapeutics, Inc. ("Viking") (Nasdaq: VKTX), a clinical-stage biopharmaceutical company focused on the development of novel therapies for metabolic and endocrine disorders, today announced its financial results for the second quarter and six months ended <span class="xn-chron">June 30, 2025</span>, and provided an update on its clinical pipeline and other corporate developments.</p>
+
+
+<p><b>Highlights from the Quarter Ended <span class="xn-chron">June 30, 2025</span>, and Other Recent Events:</b></p>
+<p>"The Viking team achieved significant execution and clinical milestones during the first half of 2025," stated <span class="xn-person">Brian Lian</span>, Ph.D., chief executive officer of Viking.  "With respect to our VK2735 program for obesity, we recently announced the initiation of the VANQUISH Phase 3 registration program, consisting of two studies: one in patients with obesity and one in patients with obesity and type 2 diabetes.  Also during the first half of the year, we announced both the initiation and completion of enrollment in the Phase 2 VENTURE-Oral Dosing study of our oral tablet formulation of VK2735.  We believe the study's rapid enrollment speaks to continued strong demand for new and differentiated weight loss therapies.  We remain on track to announce top-line data from the VENTURE-Oral study in the second half of the year.  With respect to our amylin agonist program, we continue to make progress toward an IND filing, which we expect to submit later this year.  Importantly, we completed the second quarter with a strong balance sheet providing the runway to support the advancement of VK2735 through Phase 3 clinical trials, in addition to supporting further progress with other key development programs."</p>
+<p><b>Pipeline and Recent Corporate Highlights</b></p>
+<ul type="disc"><li><b>Phase 3 VANQUISH Registration Trials for Subcutaneous VK2735 Underway.</b> VK2735 is a wholly owned long-acting dual agonist of the glucagon like peptide-1, or <span>GLP-1</span> receptor, and the glucose dependent insulinotropic polypeptide, or GIP receptor, for the potential treatment of obesity and other metabolic disorders.<br/><br/>In 2024, Viking announced positive top-line results from its Phase 2 VENTURE study of subcutaneous VK2735 in obesity.  The VENTURE trial successfully achieved its primary and secondary endpoints, with subjects receiving VK2735 demonstrating statistically significant reductions in body weight compared with placebo.  After 13 weekly doses, subjects receiving VK2735 demonstrated statistically significant reductions in mean body weight from baseline, ranging up to 14.7%.  VK2735 also demonstrated encouraging safety and tolerability in the VENTURE study, with the majority of observed adverse events (AEs) being reported as mild or moderate.  Treatment and study discontinuation rates among VK2735 cohorts were well-balanced compared with placebo.  The results of the VENTURE study were presented in <span class="xn-chron">November 2024</span> at ObesityWeek<sup>â</sup>, the annual meeting of The Obesity Society. <br/><br/>Based on these promising Phase 2 results, along with feedback from a Type C meeting and subsequent End of Phase 2 meeting with the U.S. Food and Drug Administration (FDA), the company advanced VK2735 into Phase 3 development for obesity.  In the second quarter, the company announced the initiation of the VANQUISH Phase 3 clinical program, which includes two studies evaluating VK2735: one in adults with obesity and one in adults with obesity or who are overweight and have type 2 diabetes.  Each study is a randomized, double-blind, placebo-controlled, multicenter trial designed to assess the efficacy and safety of VK2735 administered by subcutaneous injection once weekly for 78 weeks.  The VANQUISH-1 study will target enrollment of approximately 4,500 adults with obesity (BMI ≥30 kg/m<sup>2</sup>) or who are overweight (BMI ≥27 kg/m<sup>2</sup>) with at least one weight-related co-morbid condition.  The VANQUISH-2 study will target enrollment of approximately 1,100 adults with type 2 diabetes with obesity or who are overweight.  Participants in both trials will be randomized to one of four weekly treatment arms of 7.5 mg, 12.5 mg, 17.5 mg, or placebo.<br/><br/>The primary endpoint of the trials is the percent change in body weight from baseline for participants receiving VK2735 as compared to placebo after 78 weeks of treatment.  Secondary and exploratory endpoints will evaluate a range of additional safety and efficacy measures, including the percentage of patients who achieve ≥5%, ≥10%, ≥15% and ≥20% body weight reduction.  Each study will include an open-label extension allowing participants the opportunity to continue receiving treatment following completion of the primary dosing period.<br/><br/>Viking will provide further updates on the VANQUISH program as these studies progress.<br/><br/></li><li><b>Phase 2 VENTURE-Oral Dosing Trial Enrollment Completed; Top-Line Results Expected 2H25.</b>  Concurrent with the development of a subcutaneous formulation, Viking is also developing an oral tablet formulation of VK2735, which the company believes could represent an attractive treatment option for people who may prefer to initiate treatment with an oral therapy, or for those seeking to maintain the weight loss they have already achieved.  A differentiating feature of the tablet formulation of VK2735 is that it offers the potential to transition subjects from the subcutaneous formulation to an oral formulation of the same molecule.  Viking believes this may reduce the risk of unexpected safety or tolerability challenges and could be an appealing option for both patients and clinicians.<br/><br/>In 2024, Viking reported the results from a Phase 1 multiple ascending dose trial evaluating oral VK2735 doses ranging from 2.5 mg to 100 mg.  This trial successfully achieved its primary and secondary objectives, with the results showing that cohorts receiving VK2735 demonstrated dose-dependent reductions in mean body weight from baseline, ranging up to 8.2% after 28 days.  Persistent weight loss effects ranging up to 8.3% from baseline were observed at follow-up visits through Day 57, four weeks after the last dose of VK2735 was administered.  Oral VK2735 also demonstrated encouraging safety and tolerability through 28 days of once-daily dosing at doses up to and including 100 mg.  The majority of observed treatment emergent adverse events were mild or moderate, with the majority reported as mild.  These results were presented last November at ObesityWeek 2024. <br/><br/>In <span class="xn-chron">January 2025</span>, the company announced the initiation of the Phase 2 VENTURE-Oral Dosing trial in subjects with obesity.  This trial is a randomized, double-blind, placebo-controlled multicenter study designed to evaluate the safety, tolerability, pharmacokinetics and weight loss efficacy of VK2735 dosed as an oral tablet once daily for 13 weeks.  The target population consists of adults with obesity (BMI ≥30 kg/m<sup>2</sup>) or who are overweight (BMI ≥27 kg/m<sup>2</sup>) with at least one weight-related co-morbid condition.  Enrolled subjects are evenly randomized to one of six dosing arms or placebo.  The primary endpoint of the study is the percent change in body weight from baseline after 13 weeks of treatment.  Secondary and exploratory endpoints will evaluate a range of additional safety and efficacy measures.<br/><br/>In March, Viking announced completion of enrollment for this trial, enrolling approximately 280 patients.  The company expects to report the results from this study in the second half of 2025.<br/><br/></li><li><b>Continued Progress with </b><b>Dual Amylin and Calcitonin Receptor Agonist (DACRA) Program; IND Expected 4Q25</b><b>.</b>  The amylin and calcitonin receptors have been shown to play an important role in food intake and metabolic control, making them attractive therapeutic targets for obesity.<br/><br/>In 2024 Viking announced a new, internally developed DACRA program for the treatment of obesity.  <i>In vivo</i> data from this program were presented at the 2024 American Diabetes Association's (ADA's) Annual Scientific Sessions.  The company's ADA presentation highlighted the effects of treatment on body weight, food intake and metabolic profile in both healthy rats and in diet-induced obese mice.  The results demonstrated that Viking's DACRAs reduced food intake in rodents following a single subcutaneous dose.  <br/><br/>Viking plans to file an investigational new drug (IND) application for this program in the fourth quarter of 2025.<br/><br/></li><li><b>Upcoming Investor Events.</b>  Viking management will participate in the following upcoming investor events:<br/><b><br/>BTIG Virtual Biotechnology Conference 2025</b> <br/><b>Virtual<br/></b><span class="xn-chron">July 29</span> – 30, 2025<br/><b><br/>Cantor Global Healthcare Conference<br/></b><b><span class="xn-location">New York, NY</span><br/></b><span class="xn-chron">September 3</span> – 5, 2025<br/><b><br/>Morgan Stanley 23<sup>rd</sup> Annual Global Healthcare Conference<br/></b><b><span class="xn-location">New York, NY</span><br/></b><span class="xn-chron">September 8 - 10, 2025</span><br/><b><br/>Bernstein's 2<sup>nd</sup> Annual Healthcare Forum<br/></b><b><span class="xn-location">New York, NY</span><br/></b><span class="xn-chron">September 23 - 25, 2025</span><br/><b><br/>Stifel 2025 Virtual Cardiometabolic Forum<br/></b><b>Virtual<br/></b><span class="xn-chron">September 30, 2025</span></li></ul><p><b>Second Quarter and Six Months 2025 Financial Highlights</b></p>
+<p><i>Second Quarter ended <span class="xn-chron">June 30, 2025</span> and 2024</i></p>
+<p>Research and development expenses were <span class="xn-money">$60.2 million</span> for the three months ended <span class="xn-chron">June 30, 2025</span>, compared to <span class="xn-money">$23.8 million</span> for the same period in 2024.  The increase was primarily due to increased expenses related to clinical studies, manufacturing for the company's drug candidates, pre-clinical studies, stock-based compensation and salaries and benefits.</p>
+<p>General and administrative expenses were <span class="xn-money">$14.4 million</span> for the three months ended <span class="xn-chron">June 30, 2025</span>, compared to <span class="xn-money">$10.3 million</span> for the same period in 2024.  The increase was primarily due to increased expenses related to stock-based compensation and salaries and benefits, partially offset by decreased expenses related to legal and patent services.</p>
+<p>For the three months ended <span class="xn-chron">June 30, 2025</span>, Viking reported a net loss of <span class="xn-money">$65.6 million</span>, or <span class="xn-money">$0.58</span> per share, compared to a net loss of <span class="xn-money">$22.3 million</span>, or <span class="xn-money">$0.20</span> per share, in the corresponding period in 2024.  The increase in net loss for the three months ended <span class="xn-chron">June 30, 2025</span>, was primarily due to the increase in research and development expenses and general and administrative expenses, noted previously, compared to the same period in 2024.</p>
+<p><i>Six Months Ended <span class="xn-chron">June 30, 2025</span> and 2024</i></p>
+<p>Research and development expenses were <span class="xn-money">$101.5 million</span> for the six months ended <span class="xn-chron">June 30, 2025</span>, compared to <span class="xn-money">$47.9 million</span> for the same period in 2024. The increase was primarily due to increased expenses related to clinical studies, manufacturing for the company's drug candidates, stock-based compensation and salaries and benefits, partially offset by decreased expenses related to pre-clinical studies.</p>
+<p>General and administrative expenses were <span class="xn-money">$28.5 million</span> for the six months ended <span class="xn-chron">June 30, 2025</span>, compared to <span class="xn-money">$20.3 million</span> for the same period in 2024. The increase was primarily due to increased expenses related to stock-based compensation, legal and patent services and insurance, partially offset by decreased expenses related to third party consultants. </p>
+<p>For the six months ended <span class="xn-chron">June 30, 2025</span>, Viking reported a net loss of <span class="xn-money">$111.2 million</span>, or <span class="xn-money">$0.99</span> per share, compared to a net loss of <span class="xn-money">$49.6 million</span>, or <span class="xn-money">$0.46</span> per share, in the corresponding period in 2024. The increase in net loss for the six months ended <span class="xn-chron">June 30, 2025</span>, was primarily due to the increase in research and development expenses and general and administrative expenses, noted previously, partially offset by increased interest income, compared to the same period in 2024. </p>
+<p><i>Balance Sheet as of <span class="xn-chron">June 30, 2025</span></i></p>
+<p>At <span class="xn-chron">June 30, 2025</span>, Viking held cash, cash equivalents and short-term investments of $808 million, compared to <span class="xn-money">$903 million</span> as of <span class="xn-chron">December 31, 2024</span>.</p>
+<p><b>Conference Call</b></p>
+<p>Management will host a conference call to discuss Viking's second quarter 2025 financial results today at <span class="xn-chron">4:30 pm</span> Eastern.  To participate in the conference call, please dial (844) 850-0543 from the U.S. or (412) 317-5199 from outside the U.S.  In addition, following the completion of the call, a telephone replay will be accessible until <span class="xn-chron">July 30, 2025</span>, by dialing (877) 344-7529 from the U.S. or (412) 317-0088 from outside the U.S. and entering conference ID # 4078954.  Those interested in listening to the conference call live via the internet may do so by visiting the Webcasts page of Viking's website at <a href="https://c212.net/c/link/?t=0&l=en&o=4474058-1&h=2495512463&u=http%3A%2F%2Fir.vikingtherapeutics.com%2Fwebcasts&a=http%3A%2F%2Fir.vikingtherapeutics.com%2Fwebcasts" target="_blank" rel="nofollow">http://ir.vikingtherapeutics.com/webcasts</a>.  An archive of the webcast will also be available on the Webcasts page of Viking's website for 30 days.</p>
+<p><b>About Viking Therapeutics, Inc. </b></p>
+<p>Viking Therapeutics, Inc. is a clinical-stage biopharmaceutical company focused on the development of novel first-in-class or best-in-class therapies for the treatment of metabolic and endocrine disorders. Viking's research and development activities leverage its expertise in metabolism to develop innovative therapeutics designed to improve patients' lives. Viking's clinical programs include VK2735, a novel dual agonist of the glucagon-like peptide 1 (<span>GLP-1</span>) and glucose-dependent insulinotropic polypeptide (GIP) receptors for the potential treatment of various metabolic disorders. The company is evaluating its subcutaneous formulation of VK2735 in a Phase 3 obesity program that includes two Phase 3 clinical trials (VANQUISH-1 and VANQUISH-2). Data from a Phase 1 and a Phase 2 trial evaluating subcutaneous VK2735 demonstrated an encouraging safety and tolerability profile as well as positive signs of clinical benefit. Concurrently, the company is evaluating an oral formulation of VK2735 in a Phase 2 trial in obesity. Viking is also developing VK2809, a novel, orally available, small molecule selective thyroid hormone receptor beta agonist for the treatment of lipid and metabolic disorders. The compound successfully achieved both the primary and secondary endpoints in a recently completed Phase 2b study for the treatment of biopsy-confirmed non-alcoholic steatohepatitis (NASH) and fibrosis. In a Phase 2a trial for the treatment of non-alcoholic fatty liver disease (NAFLD) and elevated LDL-C, patients who received VK2809 demonstrated statistically significant reductions in LDL-C and liver fat content compared with patients who received placebo. The company's newest program is evaluating a series of internally developed dual amylin and calcitonin receptor agonists (or DACRAs) for the treatment of obesity and other metabolic disorders.  In the rare disease space, Viking is developing VK0214, a novel, orally available, small molecule selective thyroid hormone receptor beta agonist for the potential treatment of X-linked adrenoleukodystrophy (X-ALD).  In a Phase 1b clinical trial in patients with the adrenomyeloneuropathy (AMN) form of X-ALD, VK0214 demonstrated a promising safety profile and was well-tolerated, while driving significant reductions in plasma levels of very long-chain fatty acids (VLCFAs) and other lipids, as compared to placebo.</p>
+<p>For more information about Viking Therapeutics, please visit <a href="https://c212.net/c/link/?t=0&l=en&o=4474058-1&h=2975886050&u=https%3A%2F%2Fc212.net%2Fc%2Flink%2F%3Ft%3D0%26l%3Den%26o%3D4197323-1%26h%3D4201129706%26u%3Dhttps%253A%252F%252Fc212.net%252Fc%252Flink%252F%253Ft%253D0%2526l%253Den%2526o%253D4124488-1%2526h%253D3719708903%2526u%253Dhttps%25253A%25252F%25252Fc212.net%25252Fc%25252Flink%25252F%25253Ft%25253D0%252526l%25253Den%252526o%25253D3866590-1%252526h%25253D4076357968%252526u%25253Dhttps%2525253A%2525252F%2525252Fc212.net%2525252Fc%2525252Flink%2525252F%2525253Ft%2525253D0%25252526l%2525253Den%25252526o%2525253D3821369-1%25252526h%2525253D1599847740%25252526u%2525253Dhttps%252525253A%252525252F%252525252Fc212.net%252525252Fc%252525252Flink%252525252F%252525253Ft%252525253D0%2525252526l%252525253Den%2525252526o%252525253D3586345-1%2525252526h%252525253D65010134%2525252526u%252525253Dhttps%25252525253A%25252525252F%25252525252Fc212.net%25252525252Fc%25252525252Flink%25252525252F%25252525253Ft%25252525253D0%252525252526l%25252525253Den%252525252526o%25252525253D3117978-1%252525252526h%25252525253D1140731627%252525252526u%25252525253Dhttp%2525252525253A%2525252525252F%2525252525252Fwww.vikingtherapeutics.com%2525252525252F%252525252526a%25252525253Dwww.vikingtherapeutics.com%2525252526a%252525253Dwww.vikingtherapeutics.com%25252526a%2525253Dwww.vikingtherapeutics.com%252526a%25253Dwww.vikingtherapeutics.com%2526a%253Dwww.vikingtherapeutics.com%26a%3Dwww.vikingtherapeutics.com&a=www.vikingtherapeutics.com" target="_blank" rel="nofollow">www.vikingtherapeutics.com</a>.</p>
+<p><b><i>Forward-Looking Statements</i></b></p>
+<p><i>This press release contains forward-looking statements regarding Viking Therapeutics, Inc., under the safe harbor provisions of the U.S. Private Securities Litigation Reform Act of 1995, including statements about Viking's expectations regarding its clinical and preclinical development programs, anticipated timing for reporting clinical data and cash resources.  Forward-looking statements are subject to risks and uncertainties that could cause actual results to differ materially and adversely and reported results should not be considered as an indication of future performance.  These risks and uncertainties include, but are not limited to: risks associated with the success, cost and timing of Viking's product candidate development activities and clinical trials, including those for VK2735, VK0214, VK2809, and the company's other incretin and other receptor agonists; risks that prior clinical and preclinical results may not be replicated; risks regarding regulatory requirements; and other risks that are described in Viking's most recent periodic reports filed with the Securities and Exchange Commission including Viking's Annual Report on Form 10-K for the year ended December 31, 2024, and subsequent Quarterly Reports on Form 10-Q, including the risk factors set forth in those filings.  These forward-looking statements speak only as of the date hereof.  Viking disclaims any obligation to update these forward-looking statements except as required by law.</i></p>
+<div><table border="0" cellspacing="0" cellpadding="1" class="prnbcc"><tr><td class="prngen2" colspan="17" rowspan="1"><p class="prnml4"><span class="prnews_span"><b>Viking Therapeutics, Inc.</b></span></p>
+</td></tr><tr><td class="prngen2" colspan="17" rowspan="1"><p class="prnml4"><span class="prnews_span"><b>Condensed Consolidated Statements of Operations and Comprehensive Loss</b></span></p>
+</td></tr><tr><td class="prngen3" colspan="17" rowspan="1"><br/></td></tr><tr><td class="prngen2" colspan="17" rowspan="1"><p class="prnml4"><span class="prnews_span"><b>(In thousands, except per share amounts)</b></span></p>
+</td></tr><tr><td class="prngen2" colspan="17" rowspan="1"><p class="prnml4"><span class="prnews_span"><b>(Unaudited)</b></span></p>
+</td></tr><tr><td class="prngen3" colspan="17" rowspan="1"><br/></td></tr><tr><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen4" colspan="6" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span"><b>Three Months Ended<br/>June 30,</b></span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen4" colspan="6" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span"><b>Six Months Ended<br/>June 30,</b></span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen5" colspan="2" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span"><b>2025</b></span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen6" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen7" colspan="2" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span"><b>2024</b></span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen5" colspan="2" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span"><b>2025</b></span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen6" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen7" colspan="2" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span"><b>2024</b></span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Revenues</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen6" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">—</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen6" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">—</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen6" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">—</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen6" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">—</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Operating expenses:</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Research and development</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">60,153</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">23,769</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">101,543</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">47,872</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">General and administrative</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">14,421</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">10,285</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">28,500</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">20,255</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml20"><span class="prnews_span">Total operating expenses</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">74,574</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">34,054</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">130,043</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">68,127</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Loss from operations</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen10" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(74,574)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen10" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(34,054)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen10" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(130,043)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen10" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(68,127)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Other income (expense):</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Amortization of financing costs</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen11" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(24)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen11" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(18)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen11" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(48)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen11" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(46)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Interest income, net</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">9,033</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">11,820</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">18,897</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">18,565</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Realized gain on investments, net</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">4</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">2</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">4</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">2</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml20"><span class="prnews_span">Total other income, net</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">9,013</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">11,804</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">18,853</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">18,521</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Net loss</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen11" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(65,561)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen11" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(22,250)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen11" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(111,190)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen11" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(49,606)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Other comprehensive loss, net of tax:</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Unrealized gain (loss) on securities</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">26</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen11" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(699)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">589</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen11" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(1,824)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Foreign currency translation gain (loss)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">24</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">26</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">33</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen10" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(59)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Comprehensive loss</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen13" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(65,511)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen13" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(22,923)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen13" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(110,568)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen13" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(51,489)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Basic and diluted net loss per share</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen13" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(0.58)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen13" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(0.20)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen13" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(0.99)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen13" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(0.46)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Weighted-average shares used to compute basic<br/>   and diluted net loss per share</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">112,134</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">110,390</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">112,102</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">106,924</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr></table></div><p> </p>
+<div><table border="0" cellspacing="0" cellpadding="1" class="prnbcc"><tr><td class="prngen2" colspan="9" rowspan="1"><p class="prnml4"><span class="prnews_span"><b>Viking Therapeutics, Inc.</b></span></p>
+</td></tr><tr><td class="prngen2" colspan="9" rowspan="1"><p class="prnml4"><span class="prnews_span"><b>Condensed Consolidated Balance Sheets</b></span></p>
+</td></tr><tr><td class="prngen3" colspan="9" rowspan="1"><br/></td></tr><tr><td class="prngen2" colspan="9" rowspan="1"><p class="prnml4"><span class="prnews_span"><b>(In thousands, except share and per share amounts)</b></span></p>
+</td></tr><tr><td class="prngen3" colspan="9" rowspan="1"><br/></td></tr><tr><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen4" colspan="2" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span"><b>June 30,<br/>2025</b></span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen4" colspan="2" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span"><b>December 31,<br/>2024</b></span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen2" colspan="2" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(Unaudited)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span"><b>Assets</b></span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Current assets:</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Cash and cash equivalents</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">33,880</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">26,676</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Short-term investments – available-for-sale</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">773,844</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">875,936</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Prepaid clinical trial and preclinical study costs</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">16,478</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">3,476</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Prepaid expenses and other current assets</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">2,815</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">1,128</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Total current assets</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">827,017</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">907,216</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Right-of-use assets</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">780</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">1,003</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Deferred financing costs</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">8</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">56</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Deposits</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">46</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">46</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml20"><span class="prnews_span">Total assets</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">827,851</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">908,321</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span"><b>Liabilities and stockholders' equity</b></span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Current liabilities:</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Accounts payable</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">5,494</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">9,813</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Other accrued liabilities</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">26,018</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">17,111</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Lease liability, current</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">468</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">489</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Total current liabilities</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">31,980</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">27,413</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Lease liability, net of current portion</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">410</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">630</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Total long-term liabilities</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">410</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">630</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml20"><span class="prnews_span">Total liabilities</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">32,390</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">28,043</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Commitments and contingencies</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Stockholders' equity:</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="2" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Preferred stock, $0.00001 par value: 10,000,000 shares authorized <br/>at June 30, 2025 and December 31, 2024; no shares issued and <br/>outstanding at June 30, 2025 and December 31, 2024</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">—</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">—</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Common stock, $0.00001 par value: 300,000,000 shares authorized<br/>at June 30, 2025 and December 31, 2024; 112,329,709 shares <br/>issued and outstanding at June 30, 2025 and 111,573,519 shares<br/>issued and outstanding at December 31, 2024</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">1</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">1</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Treasury stock at cost, no shares at June 30, 2025 and December 31,<br/>2024</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">—</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">—</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Additional paid-in capital</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">1,394,723</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">1,368,972</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Accumulated deficit</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen11" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(599,097)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen11" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(487,907)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml10"><span class="prnews_span">Accumulated other comprehensive loss</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen10" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(166)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen10" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">(788)</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Total stockholders' equity</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">795,461</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen9" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">880,278</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr><tr><td class="prngen8" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">Total liabilities and stockholders' equity</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">827,851</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">$</span></p>
+</td><td class="prngen12" colspan="1" rowspan="1" nowrap="nowrap"><p class="prnml4"><span class="prnews_span">908,321</span></p>
+</td><td class="prngen3" colspan="1" rowspan="1" nowrap="nowrap"><br/></td></tr></table></div>
+
+
+
+
+
+
+<p>SOURCE  Viking Therapeutics, Inc.</p></div>
+
+<div class="wd_contact">For further information: Viking Therapeutics, Greg Zante, Chief Financial Officer, 858-704-4672, gzante@vikingtherapeutics.com | Vida Strategic Partners, Stephanie Diaz (Investors), 415-675-7401, sdiaz@vidasp.com | Tim Brons (Media), 415-675-7402, tbrons@vidasp.com</div>
+
+
+ 
+				
+			
+
+<!-- ITEMDATE: 2025-07-23 16:05:00 EDT -->
+
+</div>
+</div>										</div>
+										<!-- END CONTENT -->
+																			</div>
+								</div>
+							</div>
+							<p>&nbsp;</p>
+							<div class="clear"></div>
+						</article>
+					</section>
+					<div class="clearfix"></div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="footer_wrap">
+				<footer id="footer" class="container">
+					<div class="clear"></div>
+					<div class="sub_footer_wrap">
+						<div id="sidebar" class="sub_footer container">
+							<div class="footerTop row">
+							<div class="span3">
+										 <div id="text-2" class="widget widget_text"><h4>&nbsp;</h4>			<div class="textwidget"><a href="http://www.vikingtherapeutics.com/"><div style="vertical-align:top;width:204px;height:88px;"><img src="https://www.vikingtherapeutics.com/wp-content/uploads/viking-logo-gray-1.png" alt="viking therapeutics" width="204" height="88"></div></a></div>
+		</div>									</div>
+								<div class="span3">
+									<div id="text-2" class="widget widget_text">
+										<h4>About</h4>
+										<div class="textwidget">
+											Viking Therapeutics is developing novel therapeutics for patients suffering from metabolic and endocrine disorders.
+										</div>
+									</div>
+								</div>
+								<div class="span3">
+									<!---<div id="text-3" class="widget widget_text">
+										<h4>Focus</h4>
+										<div class="textwidget">
+											We are focused on specialty metabolic and endocrine indications.									
+										</div>
+									</div>--->
+								</div>
+								<div class="span3">
+									<!---<div id="text-4" class="widget widget_text">
+										<h4>VK5211</h4>
+										<div class="textwidget">VK5211 is an orally available small molecule drug candidate with a differentiated mechanism of action.
+										</div>
+									</div>--->
+								</div>
+								<div class="span3">
+									<div id="text-5" class="widget widget_text">
+										<h4>Contact</h4>
+										<div class="textwidget"><a href="mailto:info@vikingtherapeutics.com">General Information</a><br>
+											<a href="mailto:BD@vikingtherapeutics.com">Business Development</a><br>
+											©2025 Viking Therapeutics
+											<br>
+											<a href="http://www.vikingtherapeutics.com/terms-of-use/">Terms of Use</a>
+											<br>
+											<a href="http://www.vikingtherapeutics.com/privacy-policy/">Privacy Policy</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="span9">
+						<div class="footer_left">
+							<div class="logo"></div>
+							<p></p>
+						</div>
+					</div>
+					<div class="span3">
+						<div class="pull-right">
+							<ul class="nav_social"></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery.form.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("a.dropdown-toggle").click(function(){
+					$(this).parent().siblings().removeClass('open');
+					if ($(this).parent().hasClass('open')){
+						$(this).parent().removeClass('open');
+					} else {
+						$(this).parent().addClass('open');
+					}
+				});
+				
+			});
+
+		
+		
+			var _wpcf7 = {"loaderUrl":"https:\/\/www.vikingtherapeutics.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+		</script><script type="text/javascript" src="js/scripts.js"></script>
+		<script type="text/javascript" src="js/devicepx-jetpack.js"></script>
+		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript">
+			var WP_Flexslider = {"effect":"slide","animSpeed":"600","interval":"6250","pauseOnHover":"1","navigation":""};
+		</script>
+		<script type="text/javascript" src="js/jquery.flexslider.custom.js"></script>
+		<script type="text/javascript" src="js/hoverIntent.min.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.widget.min.js"></script>
+		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+		<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+		<script type="text/javascript" src="js/jquery.touchSwipe-1.3.1.js"></script>
+		<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+		<script type="text/javascript" src="js/customRetweet.min.js"></script>
+		<script type="text/javascript" src="js/ios-orientationchange-fix.js"></script>
+		<script type="text/javascript"> 
+			var WP_Preloader = {"theme_path":"https:\/\/www.vikingtherapeutics.com\/wp-content\/themes\/flipit"};
+			
+		</script>
+		<script type="text/javascript" src="js/jquery.preloader.js"></script>
+		<script type="text/javascript" src="js/jquery.infinitescroll.js"></script>
+		<script> 
+			Phx.$('.sec-tbl').wrap('<div class="ovrflw"></div>');
+		</script>
+
+		<!-- InvestorRoom Scripts -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				
+				$('.btn-flat').click(function(){
+					$('.nav-collapse').toggleClass('collapse open');
+					
+					if($('.nav-collapse').hasClass('open')){
+						$('.nav-collapse').css('height','auto');
+					} else {
+						$('.nav-collapse').css('height','0');
+					}
+
+
+				});
+			});
+		</script>
+		
+<!-- begin spin_special_output(body_end) -->
+<script wd_script_id="piwik_tracking_code"></script>
+<!-- Piwik Tracking Code -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+
+  _paq.push(["setCustomVariable", 4, "News Release Feed ID", "202507231605PR_NEWS_USPR_____LA36344", "page"]);
+
+  _paq.push(["setCustomVariable", 1, "Content Type", "News Releases Feed", "page"]);
+
+  _paq.push(["setCustomVariable", 3, "Navigation Page", "News & Events : Press Releases", "page"]);
+
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  (function() {
+    var u="//stats.drivetheweb.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", 2246]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+    g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript>
+	<img src="https://stats.drivetheweb.com/piwik.php?idsite=2246&rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Piwik Tracking Code -->
+		
+<!-- end spin_special_output(body_end) -->
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'984e46ae6c580395',t:'MTc1ODg0MjY3Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
