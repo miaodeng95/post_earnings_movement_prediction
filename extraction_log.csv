@@ -1,101 +1,101 @@
 file,status
-pdfs/file_1.pdf,success
-pdfs/file_2.pdf,success
-pdfs/file_3.pdf,success
-pdfs/file_4.pdf,success
-pdfs/file_5.pdf,success
-pdfs/file_6.pdf,success
-pdfs/file_7.pdf,success
-pdfs/file_8.pdf,success
-pdfs/file_9.pdf,error: 403 Client Error: Forbidden for url: https://www.tesla.com/sites/default/files/downloads/TSLA-Q2-2025-Update.pdf
-pdfs/file_10.pdf,success
-pdfs/file_11.pdf,success
-pdfs/file_12.pdf,success
-pdfs/file_13.pdf,success
-pdfs/file_14.pdf,success
-pdfs/file_15.pdf,success
-pdfs/file_16.pdf,success
-pdfs/file_17.pdf,success
-pdfs/file_18.pdf,success
-pdfs/file_19.pdf,success
-pdfs/file_20.pdf,success
-pdfs/file_21.pdf,error: 403 Client Error: Forbidden for url: https://investors.irhythmtech.com/financials/quarterly-results/default.aspx
-pdfs/file_22.pdf,error: 403 Client Error: Forbidden for url: https://investors.bio-rad.com/press-releases/news-details/2025/Bio-Rad-Reports-Second-Quarter-2025-Financial-Results/default.aspx
-pdfs/file_23.pdf,success
-pdfs/file_24.pdf,success
-pdfs/file_25.pdf,error: 403 Client Error: Forbidden for url: https://investors.mrcoopergroup.com/events-and-presentations/press-releases/press-release-details/2025/Mr--Cooper-Group-Reports-Second-Quarter-2025-Results/default.aspx
-pdfs/file_26.pdf,error: 403 Client Error: Forbidden for url: https://investor.fluor.com/news/news-details/2025/Fluor-Reports-Second-Quarter-2025-Results/default.aspx
-pdfs/file_27.pdf,success
-pdfs/file_28.pdf,error: 403 Client Error: Forbidden for url: https://investors.eastman.com/financials/quarterly-results/default.aspx
-pdfs/file_29.pdf,success
-pdfs/file_30.pdf,error: 403 Client Error: Forbidden for url: https://investor.coinbase.com/financials/quarterly-results/default.aspx
-pdfs/file_31.pdf,success
-pdfs/file_32.pdf,error: 403 Client Error: Forbidden for url: https://ir.supermicro.com/news/news-details/2025/Supermicro-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2025-Financial-Results/default.aspx
-pdfs/file_33.pdf,success
-pdfs/file_34.pdf,error: 403 Client Error: Forbidden for url: https://investor.uber.com/news-events/news/press-release-details/2025/Uber-Announces-Results-for-Second-Quarter-2025/default.aspx
-pdfs/file_35.pdf,success
-pdfs/file_36.pdf,success
-pdfs/file_37.pdf,success
-pdfs/file_38.pdf,success
-pdfs/file_39.pdf,error: 403 Client Error: Forbidden for url: https://ir.quantumscape.com/home/default.aspx
-pdfs/file_40.pdf,success
-pdfs/file_41.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_42.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_43.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_44.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_45.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_46.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_47.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_48.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_49.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_50.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_51.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_52.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_53.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_54.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_55.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_56.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_57.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_58.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_59.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_60.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_61.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_62.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_63.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_64.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_65.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_66.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_67.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_68.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_69.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_70.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_71.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_72.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_73.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_74.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_75.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_76.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_77.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_78.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_79.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_80.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_81.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_82.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_83.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_84.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_85.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_86.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_87.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_88.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_89.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_90.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_91.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_92.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_93.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_94.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_95.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_96.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_97.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_98.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_99.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-pdfs/file_100.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_GOOG.pdf,error: 403 Client Error: Forbidden for url: https://abc.xyz/assets/cc/27/3ada14014efbadd7a58472f1f3f4/2025q2-alphabet-earnings-release.pdf
+pdfs/file_META.pdf,success
+pdfs/file_MSFT.pdf,success
+pdfs/file_AMZN.pdf,success
+pdfs/file_AAPL.pdf,success
+pdfs/file_LCID.pdf,success
+pdfs/file_VALE.pdf,success
+pdfs/file_SOFI.pdf,success
+pdfs/file_TSLA.pdf,error: 403 Client Error: Forbidden for url: https://www.tesla.com/sites/default/files/downloads/TSLA-Q2-2025-Update.pdf
+pdfs/file_INTC.pdf,success
+pdfs/file_PLTR.pdf,success
+pdfs/file_NVO.pdf,success
+pdfs/file_AMD.pdf,success
+pdfs/file_SOUN.pdf,success
+pdfs/file_BBAI.pdf,success
+pdfs/file_OPEN.pdf,success
+pdfs/file_BA.pdf,success
+pdfs/file_VKTX.pdf,success
+pdfs/file_WK.pdf,success
+pdfs/file_APPF.pdf,success
+pdfs/file_IRTC.pdf,error: 403 Client Error: Forbidden for url: https://investors.irhythmtech.com/financials/quarterly-results/default.aspx
+pdfs/file_BIO.pdf,error: 403 Client Error: Forbidden for url: https://investors.bio-rad.com/press-releases/news-details/2025/Bio-Rad-Reports-Second-Quarter-2025-Financial-Results/default.aspx
+pdfs/file_RDDT.pdf,success
+pdfs/file_RKT.pdf,success
+pdfs/file_COOP.pdf,error: 403 Client Error: Forbidden for url: https://ir.rocketcompanies.com/home/default.aspx
+pdfs/file_FLR.pdf,error: 403 Client Error: Forbidden for url: https://investor.fluor.com/news/news-details/2025/Fluor-Reports-Second-Quarter-2025-Results/default.aspx
+pdfs/file_ENVX.pdf,success
+pdfs/file_EMN.pdf,error: 403 Client Error: Forbidden for url: https://investors.eastman.com/financials/quarterly-results/default.aspx
+pdfs/file_RIOT.pdf,success
+pdfs/file_COIN.pdf,error: 403 Client Error: Forbidden for url: https://investor.coinbase.com/financials/quarterly-results/default.aspx
+pdfs/file_FNMA.pdf,success
+pdfs/file_SMCI.pdf,error: 403 Client Error: Forbidden for url: https://ir.supermicro.com/news/news-details/2025/Supermicro-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2025-Financial-Results/default.aspx
+pdfs/file_BAC.pdf,success
+pdfs/file_UBER.pdf,error: 403 Client Error: Forbidden for url: https://investor.uber.com/news-events/news/press-release-details/2025/Uber-Announces-Results-for-Second-Quarter-2025/default.aspx
+pdfs/file_LLY.pdf,success
+pdfs/file_BABA.pdf,success
+pdfs/file_RIVN.pdf,success
+pdfs/file_QBTS.pdf,success
+pdfs/file_QS.pdf,error: 403 Client Error: Forbidden for url: https://ir.quantumscape.com/home/default.aspx
+pdfs/file_UBS.pdf,success
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
+pdfs/file_nan.pdf,error: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?

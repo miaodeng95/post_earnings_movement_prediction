@@ -57,7 +57,7 @@
                         
         
 
-                                                                              <li class="side-menu__item has-submenu">
+                                                                              <li class="active-trail side-menu__item has-submenu">
 
                                           <a href="/">Overview</a>
                                       </li>
@@ -140,6 +140,9 @@
                                       </li>
                                             <li class="side-menu__item">
                               <a href="/ir-resources/rss-feeds">RSS Feeds</a>
+                                      </li>
+                                            <li class="side-menu__item">
+                              <a href="/ir-resources/shareholder-derivative-settlement-information">Shareholder Derivative Settlement Information</a>
                                       </li>
                     </ul>
         
@@ -336,7 +339,7 @@
     </div>
 
 
-<div role="navigation" aria-labelledby="block-opendoorfootertworesources-menu" id="block-opendoorfootertworesources" class="block--system-menu-blockfooter-two block--system-menu-blockfooter-two--11051 block--footer--system-menu-block--footer-two block--footer--system-menu-block--footer-two--11051 block--2400ec59-6d93-42c8-834d-c3653724c4cb block--2400ec59-6d93-42c8-834d-c3653724c4cb--11051 block block-menu navigation block-system-menublock menu--footer-two small-12 medium-4 large-4 columns">
+<div role="navigation" aria-labelledby="block-opendoorfootertworesources-menu" id="block-opendoorfootertworesources" class="block--system-menu-blockfooter-two block--system-menu-blockfooter-two--5806 block--footer--system-menu-block--footer-two block--footer--system-menu-block--footer-two--5806 block--2400ec59-6d93-42c8-834d-c3653724c4cb block--2400ec59-6d93-42c8-834d-c3653724c4cb--5806 block block-menu navigation block-system-menublock menu--footer-two small-12 medium-4 large-4 columns">
             
     <span id="block-opendoorfootertworesources-menu" class="footer-section-title">Resources</span>
     

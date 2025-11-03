@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en-US">
-<!--9/25/2025 11:24:49 PM-->
+<!--11/3/2025 9:00:55 PM-->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
@@ -1125,10 +1125,18 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 
     <div class="cp-social-page-links__links">
         <span class="follow-us-label">Follow Us</span>
-            <a class="facebook" data-network="Facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/dwavequantum"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a>
-                    <a class="linkedin" data-network="LinkedIn" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/d-wave-systems-inc."><i class="fab fa-linkedin-in"></i><span class="sr-only">LinkedIn</span></a>
-                    <a class="youtube" data-network="YouTube" target="_blank" rel="noopener noreferrer" href="https://youtube.com/user/dwavesystems"><i class="fab fa-youtube"></i><span class="sr-only">YouTube</span></a>
-                    <a class="twitter" data-network="Twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/dwavequantum"><i class="fab fa-twitter"></i><span class="sr-only">Twitter</span></a>
+            <a class="facebook" data-network="Facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/dwavequantum">
+                <img src="/images/Facebook_light.png" alt="Facebook" />
+            </a>
+                    <a class="linkedin" data-network="LinkedIn" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/d-wave-systems-inc.">
+                <img src="/images/LinkedIn_light.png" alt="LinkedIn" />
+            </a>
+                    <a class="youtube" data-network="YouTube" target="_blank" rel="noopener noreferrer" href="https://youtube.com/user/dwavesystems">
+                <img src="/images/YouTube_light.png" alt="YouTube" />
+            </a>
+                    <a class="twitter" data-network="Twitter" target="_blank" rel="noopener noreferrer" href="https://x.com/dwavequantum">
+                <img src="/images/X_light.png" alt="X.com" />
+            </a>
         
 
 

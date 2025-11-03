@@ -37,7 +37,7 @@
     
       <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
     <a href="#skip-to-content" class="hide-txt">Skip to Content</a>
-    <div id="block-peheader" class="block-content--nir-pub-engine-block block--block-content2bcb3fe0-7b82-46d9-9cb8-73fa1ba7e720 block--block-content2bcb3fe0-7b82-46d9-9cb8-73fa1ba7e720--5826 block--pe-header--block-content--2bcb3fe0-7b82-46d9-9cb8-73fa1ba7e720 block--pe-header--block-content--2bcb3fe0-7b82-46d9-9cb8-73fa1ba7e720--5826 block--641b0fd5-b85e-4000-8247-f0002d5ccc6c block--641b0fd5-b85e-4000-8247-f0002d5ccc6c--5826 block block-block-content block-block-content2bcb3fe0-7b82-46d9-9cb8-73fa1ba7e720">
+    <div id="block-peheader" class="block-content--nir-pub-engine-block block--block-content2bcb3fe0-7b82-46d9-9cb8-73fa1ba7e720 block--block-content2bcb3fe0-7b82-46d9-9cb8-73fa1ba7e720--5911 block--pe-header--block-content--2bcb3fe0-7b82-46d9-9cb8-73fa1ba7e720 block--pe-header--block-content--2bcb3fe0-7b82-46d9-9cb8-73fa1ba7e720--5911 block--641b0fd5-b85e-4000-8247-f0002d5ccc6c block--641b0fd5-b85e-4000-8247-f0002d5ccc6c--5911 block block-block-content block-block-content2bcb3fe0-7b82-46d9-9cb8-73fa1ba7e720">
   
     
       
@@ -412,7 +412,7 @@
 
 
 <footer class="">
-    <div id="block-pefooter" class="block-content--nir-pub-engine-block block--block-contentb1fe04e3-e036-4d7e-91c5-1d0753489351 block--block-contentb1fe04e3-e036-4d7e-91c5-1d0753489351--5826 block--pe-footer--block-content--b1fe04e3-e036-4d7e-91c5-1d0753489351 block--pe-footer--block-content--b1fe04e3-e036-4d7e-91c5-1d0753489351--5826 block--667d72cd-5b04-448b-9260-0f00e0dc718e block--667d72cd-5b04-448b-9260-0f00e0dc718e--5826 block block-block-content block-block-contentb1fe04e3-e036-4d7e-91c5-1d0753489351">
+    <div id="block-pefooter" class="block-content--nir-pub-engine-block block--block-contentb1fe04e3-e036-4d7e-91c5-1d0753489351 block--block-contentb1fe04e3-e036-4d7e-91c5-1d0753489351--5911 block--pe-footer--block-content--b1fe04e3-e036-4d7e-91c5-1d0753489351 block--pe-footer--block-content--b1fe04e3-e036-4d7e-91c5-1d0753489351--5911 block--667d72cd-5b04-448b-9260-0f00e0dc718e block--667d72cd-5b04-448b-9260-0f00e0dc718e--5911 block block-block-content block-block-contentb1fe04e3-e036-4d7e-91c5-1d0753489351">
   
     
       
@@ -566,7 +566,7 @@
             <div class="text-[13px]">
                 <a href="https://www.enovix.com/legal-notice/#terms"  class="mr-4 transition-colors duration-300 hover:text-blue-light">
                             Terms of Use                        </a>
-                        <a href="https://www.enovix.com/wp-content/uploads/2025/08/Trademark-Usage-Policy_2025.08.15_final.pdf"  class="mr-4 transition-colors duration-300 hover:text-blue-light">
+                        <a href="https://www.enovix.com/wp-content/uploads/2025/08/Trademark-Usage-Policy_2025.09.15.pdf"  class="mr-4 transition-colors duration-300 hover:text-blue-light">
                             Trademarks                        </a>
                         <a href="https://www.enovix.com/privacy-policy/"  class="mr-4 transition-colors duration-300 hover:text-blue-light">
                             Privacy                        </a>

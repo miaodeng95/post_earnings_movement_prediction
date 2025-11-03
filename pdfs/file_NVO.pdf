@@ -331,7 +331,7 @@
     
      <div id="pagesettings">
         <input type="hidden" name="currentPagePath" ref="currentPagePath" value="/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details"/>
-        <input type="hidden" name="currentLanguage" ref="currentLanguage" value="Novo Nordisk | Unordinary drives change"/>
+        <input type="hidden" name="currentLanguage" ref="currentLanguage" value="Novo Nordisk "/>
         <input type="hidden" name="currentCountry" ref="currentCountry" value="Global"/>
         <input type="hidden" name="currentCountryPath" ref="currentCountryPath" value="/content/nncorp/global"/>
         <input type="hidden" name="searchPagePath" ref="searchPagePath" value="/content/nncorp/global/en/search"/>
@@ -722,7 +722,7 @@
     <div class="investornews aem-GridColumn aem-GridColumn--default--12">
 
     
-<link rel="stylesheet" href="/etc.clientlibs/nncorp/components/content/investornews/clientlibs.lc-ed5b0f14a75ac56d927d472fac7473e5-lc.min.css" type="text/css"><script type="text/javascript" src="/etc.clientlibs/nncorp/components/content/investornews/clientlibs.lc-483ff4fe4d8d8f02b6d87dd934e8a613-lc.min.js" async></script>
+<link rel="stylesheet" href="/etc.clientlibs/nncorp/components/content/investornews/clientlibs.lc-9594c97624f99696cd110f14c339e466-lc.min.css" type="text/css"><script type="text/javascript" src="/etc.clientlibs/nncorp/components/content/investornews/clientlibs.lc-483ff4fe4d8d8f02b6d87dd934e8a613-lc.min.js" async></script>
 
 
 <div>
@@ -907,13 +907,13 @@ CVR-no. 24256790</p>
                 
             
                 
+                
                 <li>
-                    <a href="/investors/annual-report.html" target="_self" class="infotext" aria-label="Annual Report ">
-                        Annual Report 
+                    <a href="https://onecode.novonordisk.com/code-of-conduct/our-purpose" target="_blank" class="infotext" aria-label="Our Purpose - Code of conduct, opens in a new window">
+                        Our Purpose - Code of conduct
                         <span class="icon icon-right-arrow m-xxs-left"></span>
                     </a>
                 </li>
-                
             
                 
                 <li>
