@@ -1,1 +1,2 @@
-
+file,status
+pdfs/file_BAC.pdf,error: Unable to get page count. Is poppler installed and in PATH?
